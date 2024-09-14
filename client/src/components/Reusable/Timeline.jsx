@@ -1,7 +1,7 @@
 
 import './Timeline.css'
 
-import test from '../../'
+import test from '../..'
 
 import firstPic from '../../assets/img/photos/firstPic.jpg'
 import italyHoliday from '../../assets/img/photos/italyHoliday.jpg'
