@@ -1,0 +1,73 @@
+{
+    "app.header": "Boda Ana & Antoine",
+
+    "global.names": "Ana & Antoine",
+    "global.inConstruction1": "¡Vuelve más tarde! ",
+    "global.inConstruction2": "En construcción",
+    "global.date": " 12 de Julio 2025 ",
+    "global.language": "Idioma",
+    "global.reportIssue": "Reportar problema",
+    "global.hours": "horas",
+    "global.minutes": "minutos",
+    "global.days": "días",
+
+    "navbar.story": "Nuestra Historia",
+    "navbar.travelstay": "Viajar & Hospedaje",
+    "navbar.details": "Información",
+    "navbar.contact": "Contacto",
+
+    
+
+    "home.hero.gettingmarried": "¡Nos casamos!",
+
+    "home.secondText": "Molino Galán, Alborache, España",
+
+
+    "travelstay.title": "¿Dónde será?",
+
+    "story.title": "Nuestra historia",
+    "story.image.firstPic": "Nos conocimos en Toronto",
+    "story.image.italy": "Viaje por Italia",
+    "story.image.paris": "Viaje a París",
+    "story.image.lisbon": "Viaje a Lisboa",
+    "story.image.birthdayana": "Cumpleaños sorpresa de Ana",
+    "story.image.livingtogether": "Mudanza juntos",
+    "story.image.pacs": "Pareja de hecho",
+    "story.image.reunion": "Viaje a la isla La Reunión",
+    "story.image.scotland": "Viaje por Escocia",
+    "story.image.engaged": "Nos comprometimos",
+
+"story.image.firstPicDate": "2 de Febrero de 2016",
+  "story.image.italyDate": "Julio de 2018",
+  "story.image.parisDate": "Marzo de 2019",
+  "story.image.lisbonDate": "Agosto de 2019",
+  "story.image.birthdayanaDate": "Febrero de 2020",
+  "story.image.livingtogetherDate": "Septiembre de 2020",
+  "story.image.pacsDate": "13 de Diciembre de 2021",
+  "story.image.reunionDate": "Diciembre de 2021",
+  "story.image.scotlandDate": "Abril de 2023",
+  "story.image.engagedDate": "10 de Febrero de 2024",
+
+    "story.image.cascade": "Ana in France!",
+    "story.image.weddingAnniv": "Seb & Delph Wedding anniversary",
+    "story.image.trainHP": "Harry Potter in Scotland!",
+    "story.image.monetBridge": "Giverny",
+ 
+    "faq.title": "Preguntas frecuentes",
+
+    "faq.dressCode":            "¿Cuál es el código de vestimenta?",
+    "faq.dressCodeanswer":      "El código de vestimenta para la boda será formal. Os invitamos a seguir esta paleta de colores para vestiros, no es obligatorio pero es recomendado.",
+
+    "faq.kids":                 "¿Son los niños bienvenidos?",
+    "faq.kidsanswer":           "Claro que sí, son bienvenidos tanto en la ceremonia como en el resto del día. Tendrán un menú adaptado para ellos y habrá actividades con monitores para que disfruten. ",
+
+    "faq.gift":                 "Regalos de boda",
+    "faq.giftanswer":           "No contamos con una lista de regalos, si quieres participar tendremos una caja durante la boda para ayudarnos con nuestro viaje de novios. En ella podrás poner tu sobre o si prefieres darlo antes de la boda puedes ponerte en contacto con nosotros.",
+
+    "faq.venue":                "¿Habrá autobús?",
+    "faq.venueanswer":          "Para el sábado contaremos con autobuses que irán desde Chiva hasta Molino Galán. Las personas interesadas en este trayecto deberán indicarlo en el formulario de asistencia",
+
+    "faq.sleep":                "Alojamiento para las personas que vienen de lejos",
+    "faq.sleepanswer":          "En el mismo lugar de la boda se encuentran vuestros alojamientos y podréis quedaros desde el viernes hasta el domingo. Será muy importante que confirméis vuestra asistencia para que podamos reservar vuestros dormitorios."
+
+}

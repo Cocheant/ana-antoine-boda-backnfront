@@ -1,0 +1,117 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.timeline-box {
+  height: auto; 
+  padding: 10px 0px 0px 0px;
+  width: 100%;
+  background-color: var(--light-orange);
+}
+
+.timeline-box .timeline {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  text-align: center;
+
+}
+
+.timeline-box .timestamp {
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 0px 4px;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  font-weight: bold;
+
+  text-align: center;
+  align-items: center;
+  max-width: 300px;
+  min-width: 150px;
+}
+
+.timeline-box .timestamp span{
+    margin-top: auto;
+}
+
+.timeline-box .status {
+  padding: 0px 0px;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  border-top: 3px solid #ffffff;
+  position: relative;
+  transition: all 200ms ease-in;
+}
+
+.timeline-box .status span {
+  padding-top: 20px;
+}
+
+.timeline-box .status span h1 {
+    font-weight: bold;
+
+}
+
+.timeline-box .status span p {
+    padding-top: 5px;
+}
+
+.timeline-box .status span:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-color: var(--light-orange);
+  border-radius: 12px;
+  border: 2px solid #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: all 200ms ease-in;
+}
+
+.swiper-container {
+  width: 100%; 
+  margin: auto;
+  overflow-y: auto;
+}
+.swiper-wrapper{
+  display: inline-flex;
+  flex-direction: row;
+  overflow-y:auto;
+  overflow-x:hidden;
+
+  justify-content: center;
+}
+
+.swiper-slide {
+  text-align: center;
+  min-width: 100px;
+  height: 100%;
+  position: relative;
+
+}
+
+.timeline-illustration{
+
+    margin-right: 5px;
+
+    margin-left: 5px;
+    margin-top: 5px;
+    pointer-events: none;
+
+    max-width: 200px;
+    min-width: 150px;
+
+    border-radius: 1.5%;
+    border: 2px solid lightgray;
+    border-width: 4px;
+    border-bottom-width: 40px;
+}

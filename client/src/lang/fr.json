@@ -1,0 +1,68 @@
+{
+    "app.header": "Mariage Ana & Antoine",
+
+    "global.names": "Ana & Antoine",
+    "global.inConstruction1": "Désolé, revenez plus tard!",
+    "global.inConstruction2": "En construction",
+    "global.date": " 12 Juillet 2025 ",
+    "global.language": "Langue",
+    "global.reportIssue": "Signaler un problème",
+    "global.hours": "heures",
+    "global.minutes": "minutes",
+    "global.days": "jours",
+
+    "navbar.story": "Notre Histoire",
+    "navbar.travelstay": "Voyage & Séjour",
+    "navbar.details": "Informations",
+    "navbar.contact": "Nous contacter",
+
+    "home.hero.gettingmarried": "On va se marier!",
+    "home.secondText": "Molino Galán, Alborache, Espagne",
+
+"story.title": "Notre histoire!",
+  "story.image.firstPic": "Rencontre à Toronto",
+  "story.image.italy": "Voyage en Italie",
+  "story.image.paris": "Voyage à Paris",
+  "story.image.lisbon": "Voyage à Lisbonne",
+  "story.image.birthdayana": "Anniversaire surprise d'Ana",
+  "story.image.livingtogether": "Emménagement ensemble",
+  "story.image.pacs": "PACS",
+  "story.image.reunion": "Voyage à La Réunion",
+  "story.image.scotland": "Voyage en Écosse",
+  "story.image.mainHero": "Fiancés à Londres",
+
+"story.image.firstPicDate": "2 Février 2016",
+  "story.image.italyDate": "Juillet 2018",
+  "story.image.parisDate": "Mars 2019",
+  "story.image.lisbonDate": "Août 2019",
+  "story.image.birthdayanaDate": "Février 2020",
+  "story.image.livingtogetherDate": "Septembre 2020",
+  "story.image.pacsDate": "13 Décembre 2021",
+  "story.image.reunionDate": "Décembre 2021",
+  "story.image.scotlandDate": "Avril 2023",
+  "story.image.engagedDate": "10 Février 2024",
+
+    "travelstay.title": "Où aura lieu l'événement ?",
+
+
+
+
+
+    "faq.title": "Foire aux questions",
+
+
+   "faq.dressCode":            "Quel est le code vestimentaire?",
+  "faq.dressCodeanswer":      "Le code vestimentaire pour le mariage sera formel. Nous vous invitons à suivre cette palette de couleurs pour les tenues, ce n'est pas obligatoire mais recommandé.",
+
+  "faq.kids":                 "Les enfants sont-ils les bienvenus?",
+  "faq.kidsanswer":           "Bien sûr! Ils sont les bienvenus à la cérémonie ainsi que tout au long de la journée. Un menu adapté leur sera proposé et il y aura des activités encadrées pour qu'ils puissent s'amuser.",
+
+  "faq.gift":                 "Cadeaux de mariage",
+  "faq.giftanswer":           "Nous n'avons pas de liste de cadeaux, mais si vous souhaitez contribuer, une boîte sera disponible lors du mariage pour nous aider à financer notre voyage de noces. Vous pourrez y déposer votre enveloppe ou nous contacter si vous préférez le donner avant le mariage.",
+
+  "faq.venue":                "Y aura-t-il un bus?",
+  "faq.venueanswer":          "Le samedi, des bus seront disponibles pour faire le trajet de Chiva jusqu'au Molino Galán. Les personnes intéressées par ce trajet devront l'indiquer dans le formulaire de participation.",
+
+  "faq.sleep":                "Hébergement pour ceux qui viennent de loin",
+  "faq.sleepanswer":          "Sur place, vous trouverez vos hébergements et vous pourrez y rester du vendredi au dimanche. Il est très important de confirmer votre présence afin que nous puissions réserver vos chambres."
+}

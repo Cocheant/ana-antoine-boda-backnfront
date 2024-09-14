@@ -1,0 +1,83 @@
+{
+    "app.header": "Wedding Ana & Antoine",
+
+    "global.names": "Ana & Antoine",
+    "global.inConstruction1": "Sorry, come back later! ",
+    "global.inConstruction2": "In construction",
+    "global.date": " July 12th 2025 ",
+    "global.hours": "Hours",
+    "global.minutes": "Minutes",
+    "global.days": "Days",
+
+    "global.language": "Language",
+    "global.reportIssue": "Report Issue",
+
+    "navbar.story": "Our Story",
+    "navbar.travelstay": "Travel & Stay",
+    "navbar.details": "Details",
+    "navbar.contact": "Contact Us",
+
+    "home.hero.gettingmarried": "We are getting married!",
+    "home.secondText": "Molino Galán, Alborache, Spain",
+    
+    "travelstay.title": "Where will it be?",
+
+    "story.title": "Our story!",
+    "story.image.firstPic": "We met in Toronto",
+
+    "story.image.italy": "Trip to Italy",
+
+
+    "story.image.paris": "Trip to Paris",
+
+    "story.image.lisbon": "Trip to Lisbon",
+
+    "story.image.birthdayana": "Ana's 25th Birthday",
+
+    "story.image.livingtogether": "Moving together",
+
+    "story.image.pacs": "Signing our Civil union",
+
+    "story.image.reunion": "Trip to La Réunion",
+
+    "story.image.scotland": "Trip to Scotland",
+
+    "story.image.engaged": "Engaged in London",
+
+
+    "story.image.firstPicDate": "February 2nd 2016",
+    "story.image.italyDate": "July 2018",
+    "story.image.parisDate": "March 2019",
+    "story.image.lisbonDate": "August 2019",
+    "story.image.birthdayanaDate": "February 2020",
+    "story.image.livingtogetherDate": "September 2020",
+    "story.image.pacsDate": "December 13th 2021",
+    "story.image.reunionDate": "December 2021",
+    "story.image.scotlandDate": "April 2023",
+    "story.image.engagedDate": "February 10th 2024",
+
+    "story.image.spainHoliday": "Holiday in Spain",
+    "story.image.cascade": "Ana in France!",
+    "story.image.weddingAnniv": "Seb & Delph Wedding anniversary",
+    "story.image.trainHP": "Harry Potter in Scotland!",
+    "story.image.monetBridge": "Giverny",
+
+
+ 
+    "faq.dressCode":            "What is the Dress code?",
+    "faq.dressCodeanswer":      "The dress code is formal, the website colours are the color code, if you want to match us!",
+
+    "faq.kids":                 "Are kids invited?",
+    "faq.kidsanswer":           "Of course! Kids are welcome, and we'll make sure they're entertained!",
+
+    "faq.gift":                 "Is there a gift registry?",
+    "faq.giftanswer":           "For us, your presence, is the gift; but if you want, there will be a box to participate to our honeymoon!",
+
+    "faq.venue":                "How can I come to the venue?",
+    "faq.venueanswer":          "We recommend coming by car or taxi, as it's a bit remote from the city! There will be buses from Chiva.",
+
+
+    "faq.sleep":                "Where can I sleep?",
+    "faq.sleepanswer":          "We'll make sure everyone that comes from far will be accomodated, and we'll let you know personally."
+
+}
