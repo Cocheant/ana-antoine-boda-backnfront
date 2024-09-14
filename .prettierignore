@@ -1,0 +1,4 @@
+*.env
+# Ignore artifacts:
+build
+coverage

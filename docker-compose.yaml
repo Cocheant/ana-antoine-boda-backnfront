@@ -1,14 +1,23 @@
 version: '3.8'
 services:
   backend:
-    build: ./server
-    ports:
-      - "5000:5000"
+    build: 
+      context: ./server
     env_file:
-      - ./server/.env
+      - ./.env
+    ports:
+      - "5001:5001"
     depends_on:
       - db
-    
+    volumes:
+      - ./server:/app
+    environment:
+      DB_HOST: db
+      DB_USER: ${DB_USER}
+      DB_PASS: ${DB_PASS}
+      DB_NAME: ${DB_NAME}
+
+
   frontend:
     build: ./client
     ports:
@@ -16,9 +25,9 @@ services:
     
   db:
     image: mysql:8
-    restart: always
+    restart: always  
     env_file:
-      - ./server/.env
+      - ./.env  # Ensure this path is correct
     environment:
       MYSQL_ROOT_PASSWORD: ${DB_PASS}
       MYSQL_DATABASE: ${DB_NAME}
@@ -26,6 +35,6 @@ services:
       - "3306:3306"
     volumes:
       - db_data:/var/lib/mysql
-
+      
 volumes:
   db_data:
