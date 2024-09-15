@@ -4,7 +4,10 @@ import { useRef, useState } from 'react'
 import { FormattedMessage } from 'react-intl'
 import { FaTimes } from 'react-icons/fa'
 import { RxHamburgerMenu } from 'react-icons/rx'
+import WebSiteInfo from './sections/WebSiteInfo'
 
+import './App.css'
+import InviteForm from './components/Reusable/InviteForm'
 
 
 
@@ -24,6 +27,11 @@ const App = () => {
   const details = useRef(null);
   const contact = useRef(null);
 
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const setModalVisibility = (bShow) => {
+    setIsModalOpen(bShow);
+  };
 
   const scrollToSection = (elementRef) => {
 
@@ -40,45 +48,45 @@ const App = () => {
   return (
     <main className='bg-[var(--dark-bg)] h-screen '>
       <header className="flex fixed  w-full justify-between  p-4 items-center px-8 py-4  mx-auto bg-[var(--dark-green)] opacity-90 z-10 right-0 -left-0 top-0  ">
-        <div onClick={() => scrollToSection(home)} className="w-10 h-10  items-center justify-start flex font-bold cursor-pointer">
+        <button onClick={() => scrollToSection(home)} className="w-10 h-10  items-center justify-start flex font-bold cursor-pointer rounded-xl min-w-20  min-h-10">
           <p className="text-2xl orange-gradient_text hover:#B45309">A&A</p>
 
-        </div>
+        </button>
 
         <nav className=" text-base gap-9 font-light hidden md:flex cursor-pointer ">
           <div className="">
-            <div onClick={() => scrollToSection(story)} className={'text-orange-300 hover:border-orange-300 border-b-[1px] border-transparent transition-all duration-500 ease-in-out'}>
+            <button onClick={() => scrollToSection(story)} className={'text-orange-300 hover:border-orange-300 border-b-[1px] rounded-xl min-w-20  min-h-10 border-transparent transition-all duration-500 ease-in-out'}>
               <FormattedMessage
                 id="navbar.story"
                 defaultMessage="Our Story"
               />
 
-            </div>
+            </button>
           </div>
-          <div onClick={() => scrollToSection(travelstay)} className={'text-orange-300 hover:border-orange-300 border-b-[1px] border-transparent transition-all duration-500 ease-in-out'}>
+          <button onClick={() => scrollToSection(travelstay)} className={'text-orange-300 hover:border-orange-300 border-b-[1px] rounded-xl min-w-20  min-h-10 border-transparent transition-all duration-500 ease-in-out'}>
             <FormattedMessage
               id="navbar.travelstay"
               defaultMessage="Travel & Stay"
             />
 
-          </div>
+          </button>
 
-          <div onClick={() => scrollToSection(details)} className={'text-orange-300 hover:border-orange-300 border-b-[1px] border-transparent transition-all duration-500 ease-in-out'}>
+          <button onClick={() => scrollToSection(details)} className={'text-orange-300 hover:border-orange-300 border-b-[1px] rounded-xl min-w-20  min-h-10 border-transparent transition-all duration-500 ease-in-out'}>
             <FormattedMessage
               id="navbar.details"
               defaultMessage="Details"
             />
 
-          </div>
+          </button>
 
-          <div onClick={() => scrollToSection(contact)} className={'text-orange-300 hover:border-orange-300 border-b-[1px] border-transparent transition-all duration-500 ease-in-out'}>
+          <button onClick={() => setModalVisibility(true)} className={'text-[var(--dark-bg)] font-bold bg-vlorange opacity-100  px-3 rounded-xl min-w-20 min-h-10 transition-all duration-500 ease-in-out hover:animate-wiggle'}>
             <FormattedMessage
               id="navbar.contact"
-              defaultMessage="Contact"
+              defaultMessage="Confirm Presence"
             />
 
 
-          </div>
+          </button>
 
         </nav>
         <nav className=" text-base  font-light md:hidden  cursor-pointer">
@@ -130,10 +138,19 @@ const App = () => {
 
       </header>
 
-
+  
       <div className='content '>
-
+         
         <section className="relative h-auto flex-row">
+        {isModalOpen && (
+            <div className="modal-overlay">
+              <div className="modal-content">
+                test
+                <InviteForm/>
+
+              </div>
+            </div>
+          )}
           <div ref={home} className="home">
             <Home />
           </div>
@@ -147,11 +164,11 @@ const App = () => {
 
             <Details />
           </div>
-          <div ref={contact} className="contact">
+      
+          <div className="websiteInfo">
 
-            <Contact />
+            <WebSiteInfo />
           </div>
-
           <Footer className="flex " />
         </section>
       </div>

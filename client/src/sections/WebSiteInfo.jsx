@@ -1,7 +1,7 @@
 import { FormattedMessage } from "react-intl"
 import InConstruction from "../components/Reusable/InConstruction"
 
-const Contact = () => {
+const WebSiteInfo = () => {
 
     const isInConstruction = true;
 
@@ -39,4 +39,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default WebSiteInfo

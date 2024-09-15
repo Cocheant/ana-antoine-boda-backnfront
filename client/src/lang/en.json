@@ -15,7 +15,7 @@
     "navbar.story": "Our Story",
     "navbar.travelstay": "Travel & Stay",
     "navbar.details": "Details",
-    "navbar.contact": "Contact Us",
+    "navbar.contact": "RSVP",
 
     "home.hero.gettingmarried": "We are getting married!",
     "home.secondText": "Molino Galán, Alborache, Spain",
@@ -63,7 +63,8 @@
     "story.image.monetBridge": "Giverny",
 
 
- 
+    "faq.title": "Frequently asked questions",
+
     "faq.dressCode":            "What is the Dress code?",
     "faq.dressCodeanswer":      "The dress code is formal, the website colours are the color code, if you want to match us!",
 
