@@ -18,12 +18,12 @@ const WebSiteInfo = () => {
             <div className="flex justify-center  pb-28 pt-28 bg-[var(--dark-green)] opacity-60">
                 <div className="flex h-auto  justify-center flex-row text-vlorange md:text-xl sm:text-xl text-xl font-semibold  pb-20">
                     <div className="flex justify-center ">
-                        <a href="https://github.com/Cocheant/ana-antoine-react" target="_blank" >
+                        <a href="https://github.com/Cocheant/ana-antoine-react" target="_blank" rel="noreferrer" >
                             Source
                         </a>
                     </div>
                     <div className="flex justify-center pl-6">
-                        <a href="https://github.com/Cocheant/ana-antoine-react/issues" target="_blank" className="flex">
+                        <a href="https://github.com/Cocheant/ana-antoine-react/issues" target="_blank" className="flex" rel="noreferrer">
                             <FormattedMessage
                                 id="global.reportIssue"
                                 defaultMessage="Report issue"

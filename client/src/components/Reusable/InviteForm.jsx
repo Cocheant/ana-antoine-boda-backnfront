@@ -7,7 +7,7 @@ const InviteForm = ({closeCB}) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch('http://localhost:5001/api/invitations', {
+    fetch('http://localhost:5000/api/invitations', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

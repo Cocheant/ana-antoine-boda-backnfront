@@ -15,8 +15,8 @@ app.use(express.json());
 
 // MySQL Connection
 const db = mysql.createConnection({
-  host: process.env.DB_HOST || 'db',  // Ensure the host is set to 'db'
-  user: process.env.DB_USER || 'mysql',
+  host: process.env.DB_HOST ||  'localhost',  // Ensure the host is set to 'db'
+  user: process.env.DB_USER || 'root',
   password: process.env.DB_PASS || 'password',
   database: process.env.DB_NAME || 'mydatabase',
   port: 3306
@@ -36,7 +36,7 @@ app.get('/', (req, res) => {
   res.send('Hello from the server');
 });
 
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
@@ -44,7 +44,7 @@ app.listen(PORT, () => {
 // Sample POST API: Add New Invitation
 app.post('/api/invitations', (req, res) => {
   const { name, email } = req.body;
-  const sql = 'INSERT INTO invitations (name, email) VALUES (?, ?)';
+  const sql = 'INSERT INTO guests (name, email) VALUES (?, ?)';
   db.query(sql, [name, email], (err, result) => {
     if (err) {
       res.status(500).json({ error: 'Database insertion failed' });
