@@ -7,20 +7,20 @@ const InviteForm = ({closeCB}) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch('http://localhost:5000/api/invitations', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ name, email }),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log('Invitation added:', data);
-        setName('');
-        setEmail('');
-      })
-      .catch((error) => console.error('Error adding invitation:', error));
+    // fetch('http://localhost:5000/api/invitations', {
+    //   method: 'POST',
+    //   headers: {
+    //     'Content-Type': 'application/json',
+    //   },
+    //   body: JSON.stringify({ name, email }),
+    // })
+    //   .then((response) => response.json())
+    //   .then((data) => {
+    //     console.log('Invitation added:', data);
+    //     setName('');
+    //     setEmail('');
+    //   })
+    //   .catch((error) => console.error('Error adding invitation:', error));
   };
 
   return (
