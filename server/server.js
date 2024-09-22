@@ -43,6 +43,8 @@ app.listen(PORT, () => {
 
 // Sample POST API: Add New Invitation
 app.post('/api/invitations', (req, res) => {
+
+  // TODO sanitize using express package (sequelize)
   const { name, email } = req.body;
   const sql = 'INSERT INTO guests (name, email) VALUES (?, ?)';
   db.query(sql, [name, email], (err, result) => {
