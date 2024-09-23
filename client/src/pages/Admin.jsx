@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
+const apiUrl = process.env.REACT_APP_API_URL;
+
 const Admin = () => {
 
     const navigate = useNavigate();
@@ -10,7 +12,7 @@ const Admin = () => {
   
     useEffect(() => {
       // Make a request to the backend to check authentication
-      axios.get('http://localhost:8080/auth/token', { withCredentials: true })
+      axios.get(`${apiUrl}/auth/token`, { withCredentials: true })
         .then((response) => {
           setIsAuthenticated(true);
         })

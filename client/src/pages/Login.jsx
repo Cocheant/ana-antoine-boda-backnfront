@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+const apiUrl = process.env.REACT_APP_API_URL;
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -10,7 +11,7 @@ const Login = () => {
 
   useEffect(() => {
     // Make a request to the backend to check authentication
-    axios.get('http://localhost:8080/auth/token', { withCredentials: true })
+    axios.get(`${apiUrl}/auth/token`, { withCredentials: true })
       .then((response) => {
         navigate('/admin');
       })
@@ -23,7 +24,7 @@ const Login = () => {
     e.preventDefault();
     
     try {
-      const response = await axios.post('http://localhost:8080/auth/login', { username, password }, {
+      const response = await axios.post(`${apiUrl}/auth/login`, { username, password }, {
         withCredentials: true // Send and receive cookies for authentication
       });
       if (response.status === 200) {
