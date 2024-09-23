@@ -1,5 +1,5 @@
 import React from 'react'
-import { Home, Story, TravelStay, Details, Contact } from '../pages'
+import { Home, Story, TravelStay, Details } from '../pages'
 import Footer from '../components/Reusable/Footer'
 import { useRef, useState } from 'react'
 import { FormattedMessage } from 'react-intl'

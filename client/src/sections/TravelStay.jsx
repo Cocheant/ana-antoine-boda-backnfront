@@ -9,7 +9,7 @@ const TravelStay = () => {
     // const isInConstruction = true;
 
     return (
-        <a className="relative flex w-full justify-center gap-10 pl-10 pr-10 p-10 overflow-auto flex-wrap">
+        <section className="relative flex w-full justify-center gap-10 pl-10 pr-10 p-10 overflow-auto flex-wrap">
             {/* {isInConstruction === false &&
                 <div className="h-screen">
 
@@ -28,7 +28,7 @@ const TravelStay = () => {
                 <LeafletMap />
             </div>
 
-        </a>
+        </section>
     )
 }
 

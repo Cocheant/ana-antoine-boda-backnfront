@@ -1,21 +1,21 @@
 version: '3.8'
 services:
-  backend:
-    build: 
-      context: ./server
-    env_file:
-      - ./.env
-    ports:
-      - "5001:5001"
-    depends_on:
-      - db
-    volumes:
-      - ./server:/app
-    environment:
-      DB_HOST: db
-      DB_USER: ${DB_USER}
-      DB_PASS: ${DB_PASS}
-      DB_NAME: ${DB_NAME}
+  # backend:
+  #   build: 
+  #     context: ./server
+  #   env_file:
+  #     - ./.env
+  #   ports:
+  #     - "5001:5001"
+  #   depends_on:
+  #     - db
+  #   volumes:
+  #     - ./server:/app
+  #   environment:
+  #     DB_HOST: db
+  #     DB_USER: ${DB_USER}
+  #     DB_PASS: ${DB_PASS}
+  #     DB_NAME: ${DB_NAME}
 
 
   frontend:

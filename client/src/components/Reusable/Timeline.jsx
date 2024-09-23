@@ -1,8 +1,6 @@
 
 import './Timeline.css'
 
-import test from '../..'
-
 import firstPic from '../../assets/img/photos/firstPic.jpg'
 import italyHoliday from '../../assets/img/photos/italyHoliday.jpg'
 
@@ -45,7 +43,7 @@ function Timeline() {
                                 <h1>
                                 <FormattedMessage id="story.image.firstPic" defaultMessage="We met in Toronto" />
                                 </h1>
-                                <img src={firstPic} alt="Photo of US" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
+                                <img src={firstPic} alt="firstPic" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
                             </span>
                         </div>
                     </div>
@@ -53,7 +51,7 @@ function Timeline() {
                     <div className="swiper-slide">
                         <div className="timestamp  h-[200px]  sm:h-[250px]">
 
-                            <img src={italyHoliday} alt="Photo of US" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
+                            <img src={italyHoliday} alt="italyHoliday" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
 
                             <span className="date">
                             <FormattedMessage id="story.image.italyDate" defaultMessage="July 2018" />
@@ -82,7 +80,7 @@ function Timeline() {
                                 <h1>
                                     <FormattedMessage id="story.image.paris" defaultMessage="Trip to Paris" />
                                 </h1>
-                                <img src={parisTrip} alt="Photo of US" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
+                                <img src={parisTrip} alt="parisTrip" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
                             </span>
                         </div>
                     </div>
@@ -90,7 +88,7 @@ function Timeline() {
 
                     <div className="swiper-slide">
                         <div className="timestamp  h-[200px]  sm:h-[250px] ">
-                            <img src={lisbon} alt="Photo of US" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
+                            <img src={lisbon} alt="lisbon" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
                             <span className="date">
                                 <FormattedMessage id="story.image.lisbonDate" defaultMessage="August 2019" /> 
                             
@@ -118,7 +116,7 @@ function Timeline() {
                                 <h1>
                                     <FormattedMessage id="story.image.birthdayana" defaultMessage="Birthday" />
                                 </h1>
-                                <img src={ana25th} alt="Photo of US" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
+                                <img src={ana25th} alt="ana25th" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
                             </span>
                         </div>
                     </div>
@@ -126,7 +124,7 @@ function Timeline() {
 
                     <div className="swiper-slide">
                         <div className="timestamp  h-[200px]  sm:h-[250px]">
-                            <img src={parisMask} alt="Photo of US" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
+                            <img src={parisMask} alt="parisMask" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
 
                             <span className="date">
                             <FormattedMessage id="story.image.livingtogetherDate" defaultMessage="September 2020" /> 
@@ -149,7 +147,7 @@ function Timeline() {
                                 <h1>
                                     <FormattedMessage id="story.image.pacs" defaultMessage="Signing our Civil union" />
                                 </h1>
-                                <img src={pacs} alt="Photo of US" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
+                                <img src={pacs} alt="pacs" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
                             </span>
                         </div>
                     </div>
@@ -157,7 +155,7 @@ function Timeline() {
 
                     <div className="swiper-slide">
                         <div className="timestamp  h-[200px]  sm:h-[250px]">
-                            <img src={reunion} alt="Photo of US" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
+                            <img src={reunion} alt="reunion" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
                             <span className="date">
                             <FormattedMessage id="story.image.reunionDate" defaultMessage="December 2021" /> 
                             
@@ -179,7 +177,7 @@ function Timeline() {
                                 <h1>
                                     <FormattedMessage id="story.image.scotland" defaultMessage="Trip to Scotland" />
                                 </h1>
-                                <img src={trainHP} alt="Photo of US" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
+                                <img src={trainHP} alt="trainHP" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
 
                             </span>
                         </div>
@@ -188,7 +186,7 @@ function Timeline() {
 
                     <div className="swiper-slide">
                         <div className="timestamp  h-[200px]  sm:h-[250px]">
-                            <img src={engaged} alt="Photo of US" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
+                            <img src={engaged} alt="engaged" className="timeline-illustration max-w-[200px] sm:max-w-[250px]" />
                             <span className="date">
                             <FormattedMessage id="story.image.engagedDate" defaultMessage="" />
                             </span>

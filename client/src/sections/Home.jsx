@@ -6,7 +6,6 @@ import scotlandBridge from '../assets/img/photos/scotlandBridgeCentered.jpg'
 import scotlandLake from '../assets/img/photos/scotlandLake.jpg'
 
 
-{/* <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center"></div> */ }
 
 const Home = () => {
     const targetDate = "2025-07-15T19:00:00";

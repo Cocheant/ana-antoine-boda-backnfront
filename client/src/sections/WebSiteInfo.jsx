@@ -6,7 +6,7 @@ const WebSiteInfo = () => {
     const isInConstruction = true;
 
     return (
-        <section className=" relative flex-row">
+        <section className="relative flex-row">
             {isInConstruction === false &&
                 <div className="h-screen">
 

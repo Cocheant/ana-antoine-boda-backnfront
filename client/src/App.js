@@ -1,19 +1,14 @@
 
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Main from './pages/Main';
 import Login from './pages/Login';
 import Admin from './pages/Admin';
-import {  useState } from 'react';
 
 // A helper function to simulate authentication status (replace with real logic)
 
 
 const App = () => {
 
-  const [authenticated, setAuthenticated ] = useState(false);
-  const logIn = () => {
-    setAuthenticated(true);
-  };
   return (
 
       <Router>
@@ -22,7 +17,7 @@ const App = () => {
           <Route path="/" element={<Main />} />
   
           {/* Route for the Login component */}
-          <Route path="/login" element={<Login logged={logIn} />} />
+          <Route path="/login" element={<Login  />} />
   
           {/* Protected route for the Admin component */}
           <Route 

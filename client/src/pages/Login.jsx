@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-const Login = ({logged}) => {
+const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -16,7 +16,7 @@ const Login = ({logged}) => {
       })
       .catch((error) => {
     });
-  }, []);
+  }, [navigate]);
 
 
   const handleLogin = async (e) => {
