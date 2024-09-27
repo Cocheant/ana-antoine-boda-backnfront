@@ -8,7 +8,8 @@ import { RxHamburgerMenu } from 'react-icons/rx'
 import WebSiteInfo from '../sections/WebSiteInfo'
 
 import '../App.css'
-import InviteForm from '../components/Reusable/InviteForm'
+
+import Modal from '../components/Reusable/Modal'
 
 const Main = () => {
     // nav is starting off false
@@ -138,13 +139,7 @@ const Main = () => {
          
         <section className="relative h-auto flex-row">
         {isModalOpen && (
-            <div className="modal-overlay">
-              <div className="modal-content">
-                test
-                <InviteForm/>
-
-              </div>
-            </div>
+            <Modal closeCB={()=>{setIsModalOpen(false)}}/>
           )}
           <div ref={home} className="home">
             <Home />

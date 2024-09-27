@@ -24,6 +24,9 @@ module.exports = {
           DEFAULT: "#000",
           500: "#1D2235"
         },
+        lgreen:{
+          DEFAULT:"#606f5e"
+        },
         green: {
           DEFAULT: "#23381f"
         },
