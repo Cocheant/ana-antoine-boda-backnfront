@@ -29,7 +29,7 @@ const LanguageSelector = () => {
                 {langs?.map((country) => (
                     <p
                         key={country}
-                        className={`${country === selected && "bg-vlorange text-green "} ${country !== selected && "text-vlorange bg-[var(--background)]"}
+                        className={`${country === selected && "bg-vlorange text-[var(--orange)]"} ${country !== selected && "text-vlorange bg-[var(--background)]"}
                         mr-2  cursor-pointer flex text-center items-center justify-center rounded hover:bg-vlorange hover:text-green  w-10 h-10`}
                         onClick={() => {
 

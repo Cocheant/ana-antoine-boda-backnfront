@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;  /* Centers content vertically */
     z-index: 9999;  /* Ensures the modal is above everything */
+
 }
   
 
