@@ -62,7 +62,7 @@ const InviteForm = ({closeCB}) => {
         <input
           type="text"
           value={guestName}
-          className='rounded-md text-vlorange px-2 font-bold'
+          className='rounded-md text-[var(--orange)] px-2 font-bold'
           onChange={(e) => setGuestName(e.target.value)}
           disabled = {guestValid? "disabled" : ""}
         />
@@ -72,7 +72,7 @@ const InviteForm = ({closeCB}) => {
         <input
           type="email"
           value={email}
-          className='rounded-md text-vlorange px-2 font-bold'
+          className='rounded-md text-[var(--orange)] px-2 font-bold'
           onChange={(e) => setEmail(e.target.value)}
           disabled = {guestValid? "disabled" : ""}
 
@@ -81,7 +81,7 @@ const InviteForm = ({closeCB}) => {
       <div className='min-h-16   mt-5'>
       { 
       guestValidationState === "waiting"?          
-          <button type="submit" className={'text-[var(--dark-bg)] font-bold bg-vlorange opacity-100  w-40 min-h-10 rounded-xl transition-all duration-500 ease-in-out  '}>
+          <button type="submit" className={'text-[var(--background)] font-bold bg-[var(--orange)] opacity-100  w-40 min-h-10 rounded-xl transition-all duration-500 ease-in-out  '}>
           Next            
           </button>:
               <ResponseFeedback status={guestValidationState}/>
