@@ -2,7 +2,7 @@ import LanguageSelector from "./LanguageSelector"
 
 const Footer = () => {
     return (
-        <footer className=" w-full  items-center  border-vlorange/50 border-t  bg-[var(--dark-green)]  z-10 bottom-0 absolute flex   justify-between ">
+        <footer className=" w-full  items-center  border-vlorange/50 border-t  bg-[var(--background)]  z-10 bottom-0 absolute flex   justify-between ">
             <div className="justify-left px-8 py-4">
 
 
@@ -16,7 +16,7 @@ const Footer = () => {
                         <div className="absolute bg-vlorange 
                             w-6 h-6 rotate-45">
                         </div>
-                        <div className="absolute bg-[var(--dark-green)] 
+                        <div className="absolute bg-[var(--background)] 
                             w-6 h-6 rotate-45 translate-y-1">
                         </div>
                     </div>

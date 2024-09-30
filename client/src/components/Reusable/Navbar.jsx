@@ -12,7 +12,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav);
 
     return (
-        <header className="flex  w-full justify-between  p-4 items-center px-8 py-4  mx-auto bg-[var(--dark-green)] opacity-90 z-10 right-0 -left-0 top-0 sticky ">
+        <header className="flex  w-full justify-between  p-4 items-center px-8 py-4  mx-auto bg-[var(--background)] opacity-90 z-10 right-0 -left-0 top-0 sticky ">
             <Link to="/" className="w-10 h-10  items-center justify-start flex font-bold ">
                 <p className="text-2xl orange-gradient_text hover:#B45309">A&A</p>
 
@@ -20,7 +20,7 @@ const Navbar = () => {
 
             <nav className=" text-base gap-9 font-light hidden md:flex ">
                 <div className="">
-                    <Link to="/#story" className={({ isActive }) => isActive ? 'text-amber-700' : 'text-orange-300'}>
+                    <Link to="/#story" className="text-[var(--orange)]">
                         <FormattedMessage
                             id="navbar.story"
                             defaultMessage="Our Story"
@@ -28,7 +28,7 @@ const Navbar = () => {
 
                     </Link>
                 </div>
-                <Link to="/#travelstay" className={({ isActive }) => isActive ? 'text-amber-700' : 'text-orange-300'}>
+                <Link to="/#travelstay"  className="text-[var(--orange)]">
                     <FormattedMessage
                         id="navbar.travelstay"
                         defaultMessage="Travel & Stay"
@@ -36,7 +36,7 @@ const Navbar = () => {
 
                 </Link>
 
-                <Link to="/#details" className={({ isActive }) => isActive ? 'text-amber-700' : 'text-orange-300'}>
+                <Link to="/#details"  className="text-[var(--orange)]">
                     <FormattedMessage
                         id="navbar.details"
                         defaultMessage="Details"
@@ -44,7 +44,7 @@ const Navbar = () => {
 
                 </Link>
 
-                <Link to="/#contact" className={({ isActive }) => isActive ? 'text-amber-700' : 'text-orange-300'}>
+                <Link to="/#contact"  className="text-[var(--orange)]">
                     <FormattedMessage
                         id="navbar.contact"
                         defaultMessage="Contact"
@@ -66,10 +66,10 @@ const Navbar = () => {
                     className={`space-y-7 ${nav
                         ? 'text-white opacity-100 transform translate-x-0 duration-500'
                         : 'opacity-0 transform -translate-y-full '
-                        } transition-transform  duration-500 absolute top-0 left-0 w-full h-screen bg-[var(--dark-green)] opacity-80 flex flex-col justify-center items-center text-2xl`}
+                        } transition-transform  duration-500 absolute top-0 left-0 w-full h-screen bg-[var(--background)] opacity-80 flex flex-col justify-center items-center text-2xl`}
                     onClick={() => setNav(false)}
                 >
-                    <Link to="/#story" className={({ isActive }) => isActive ? 'text-amber-700' : 'text-orange-300'}>
+                    <Link to="/#story"  className="text-[var(--orange)]">
                         <FormattedMessage
                             id="navbar.story"
                             defaultMessage="Our Story"
@@ -77,20 +77,20 @@ const Navbar = () => {
 
                     </Link>
 
-                    <Link to="/#travelstay" className={({ isActive }) => isActive ? 'text-amber-700' : 'text-orange-300'}>
+                    <Link to="/#travelstay"  className="text-[var(--orange)]">
                         <FormattedMessage
                             id="navbar.travelstay"
                             defaultMessage="Travel & Stay"
                         />
                     </Link>
-                    <Link to="/#details" className={({ isActive }) => isActive ? 'text-amber-700' : 'text-orange-300'}>
+                    <Link to="/#details"  className="text-[var(--orange)]">
                         <FormattedMessage
                             id="navbar.details"
                             defaultMessage="Details"
                         />
 
                     </Link>
-                    <Link to="/#contact" className={({ isActive }) => isActive ? 'text-amber-700' : 'text-orange-300'}>
+                    <Link to="/#contact"  className="text-[var(--orange)]">
                         <FormattedMessage
                             id="navbar.contact"
                             defaultMessage="Contact"

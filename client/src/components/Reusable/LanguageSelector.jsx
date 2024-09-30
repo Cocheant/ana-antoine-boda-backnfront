@@ -15,10 +15,10 @@ const LanguageSelector = () => {
         <div className=" font-medium  h-10  overflow-x" >
 
 
-            <div className="bg-[var(--dark-green)] opacity-80 rounded text-center items-center flex flex-row overflow-x-auto " >
+            <div className="bg-[var(--background)] opacity-80 rounded text-center items-center flex flex-row overflow-x-auto " >
                 <p
 
-                    className="mr-2  flex text-center items-center justify-center rounded  text-vlorange bg-[var(--dark-green)]   w-24 h-10"
+                    className="mr-2  flex text-center items-center justify-center rounded  text-vlorange bg-[var(--background)]   w-24 h-10"
 
                 >
                     <FormattedMessage
@@ -29,7 +29,7 @@ const LanguageSelector = () => {
                 {langs?.map((country) => (
                     <p
                         key={country}
-                        className={`${country === selected && "bg-vlorange text-green "} ${country !== selected && "text-vlorange bg-[var(--dark-green)]"}
+                        className={`${country === selected && "bg-vlorange text-green "} ${country !== selected && "text-vlorange bg-[var(--background)]"}
                         mr-2  cursor-pointer flex text-center items-center justify-center rounded hover:bg-vlorange hover:text-green  w-10 h-10`}
                         onClick={() => {
 

@@ -1,22 +1,139 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 :root {
 
-  --light-green: #5e5c36;
-  --dark-green: #23381f;
-  --very-light-orange:#b18969;
-  --light-orange: #b47543;
-  --medium-orange: #aa4010;
-  --dark-orange: #7c0004;
-  --yellow: #D9BA45;
+ 
+  --light-red: #d56f63;
 
-  --main-bg: var(--light-green);
-  --dark-bg: var(--dark-green);
+  --orange: #d33d00;
+
+  --red: #950028;
+
+
+  --yellow: #fcab00;
+  --light-green: #7b7e59;
+
+  --dark-green: #3a4a2d;
+  --background: #e6e7dc;
+
+  --background-opaque: #e6e7dcc2;
+
+  --main-bg: var(--background);
+  --dark-bg: var(--background);
 
   --light-text: var(--very-light-orange);
   --medium-text: var(--medium-orange);
@@ -34,12 +151,13 @@ img {
 }
 
 body {
-  font-family: 'Cinzel', serif;
-
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body:has(.card[data-color="green"]:hover) {
-  background-color: var(--dark-bg);
+  background-color:var(--background);
 }
 
 
@@ -51,18 +169,18 @@ body:has(.card[data-color="green"]:hover) {
  
 /* Track */
 ::-webkit-scrollbar-track {
-    background: var(--dark-green);
+    background: var(--background);
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: var(--very-light-orange);
+    background: var(--orange);
     border-radius: 5px;
 }
  
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--very-light-orange);
+    background: var(--orange);
 }
 
 
@@ -101,11 +219,11 @@ body:has(.card[data-color="green"]:hover) {
  
 
   .section {
-    background: var(--dark-green);
+    background: var(--background);
   }
   
   .content {
-    background: var(--dark-green);
+    background: var(--background);
     @apply w-full  overflow-auto  
   }
 }

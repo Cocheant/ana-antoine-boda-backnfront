@@ -8,7 +8,7 @@
   height: auto; 
   padding: 10px 0px 0px 0px;
   width: 100%;
-  background-color: var(--light-orange);
+  background-color: var(--dark-green);
 }
 
 .timeline-box .timeline {
@@ -65,7 +65,7 @@
   content: '';
   width: 20px;
   height: 20px;
-  background-color: var(--light-orange);
+  background-color: var(--dark-green);
   border-radius: 12px;
   border: 2px solid #ffffff;
   position: absolute;
@@ -102,14 +102,11 @@
 .timeline-illustration{
 
     margin-right: 5px;
-
     margin-left: 5px;
     margin-top: 5px;
     pointer-events: none;
-
     max-width: 200px;
     min-width: 150px;
-
     border-radius: 1.5%;
     border: 2px solid lightgray;
     border-width: 4px;

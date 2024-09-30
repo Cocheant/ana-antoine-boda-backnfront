@@ -15,7 +15,7 @@ const WebSiteInfo = () => {
             {isInConstruction === true &&
                 <InConstruction />
             }
-            <div className="flex justify-center  pb-28 pt-28 bg-[var(--dark-green)] opacity-60">
+            <div className="flex justify-center  pb-28 pt-28 bg-[var(--background)] opacity-60">
                 <div className="flex h-auto  justify-center flex-row text-vlorange md:text-xl sm:text-xl text-xl font-semibold  pb-20">
                     <div className="flex justify-center ">
                         <a href="https://github.com/Cocheant/ana-antoine-react" target="_blank" rel="noreferrer" >

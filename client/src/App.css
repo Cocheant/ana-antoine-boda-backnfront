@@ -4,7 +4,10 @@
   margin-top: 50px;
 }
 
-
+.cls-1 {
+  fill: #d33d00;
+  stroke-width: 0px;
+}
 
 @keyframes tilt-shaking {
   0% { transform: rotate(0deg); }

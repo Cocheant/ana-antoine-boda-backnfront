@@ -17,36 +17,28 @@ module.exports = {
       },
      
       colors: {
-        gray: {
-          200: "#D5DAE1"
-        },
-        black: {
-          DEFAULT: "#000",
-          500: "#1D2235"
-        },
+        lightRed:{
+          DEFAULT: "#d56f63"
+        }, 
+        red:{
+          DEFAULT: "#950028"
+        }, 
+        orange:{
+          DEFAULT: "#d33d00"
+        }, 
+
         lgreen:{
-          DEFAULT:"#606f5e"
+          DEFAULT:"#7b7e59"
         },
         green: {
-          DEFAULT: "#23381f"
-        },
-        vlorange: {
-          DEFAULT: "#b18969"
-        },
-
-        lorange: {
-          DEFAULT: "#b47543"
-        },
-        morange: {
-          DEFAULT: "#aa4010"
-        },
-        dorange: {
-          DEFAULT: "#7c0004"
+          DEFAULT: "#3a4a2d"
         },
         yellow: {
-          DEFAULT: "#D9BA45"
+          DEFAULT: "#fcab00"
+        },
+        background: {
+          DEFAULT: "#e6e7dc"
         }
-
       },
       fontFamily: {
         worksans: ["Work Sans", "sans-serif"],
