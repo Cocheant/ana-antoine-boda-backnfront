@@ -20,8 +20,25 @@
     "home.hero.gettingmarried": "We are getting married!",
     "home.molinogalan": "Molino Galán",
     
-    "travelstay.title": "Where will it be?",
+    "home.arrivalTime":"Arrival: 18.30",
+    "home.ceremonyTime":"Ceremony: 19.00",
+    "global.address1":"Partida del Molino Galán",
+    "global.address2":"46369 - Alborache",
+    "global.address3":"Valencia, Spain",
 
+
+    "travelstay.title": "How to get there?",
+
+    "travelstay.place": "Masía Rural Molino Galán",
+    "travelstay.address": "Partida del Molino Galán, 46369 - Alborache, Spain",
+    "travelstay.cartaxi":       "Car / Taxi:",
+    "travelstay.cartaxiText1":  "The ceremony location is a bit far from the city, so we recommend that people who want to move around and visit places have a car.",
+    "travelstay.cartaxiText2":  "It is also possible to get there by taxi.",
+  
+    "travelstay.autobus":       "Bus:",
+    "travelstay.autobusText1":  "For Saturday, we will have buses going from Chiva to Molino Galán. People interested in this route should indicate it on the attendance form.",
+    "travelstay.autobusText2":  "Schedules: To be determined.",
+    
     "story.title": "Our story!",
     "story.image.firstPic": "We met in Toronto",
 

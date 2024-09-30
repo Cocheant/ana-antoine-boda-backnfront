@@ -55,7 +55,7 @@ current.language = shortLang;
 
 const root =ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(<IntlProvider locale={locale} messages={lang}>
+root.render(<IntlProvider locale={shortLang} messages={lang}>
    <React.StrictMode>
       <App />
   </React.StrictMode>

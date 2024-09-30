@@ -1,4 +1,6 @@
 import React from 'react'
+import '../App.css'
+
 import { Home, Story, TravelStay, Details } from '../pages'
 import Footer from '../components/Reusable/Footer'
 import { useRef, useState } from 'react'
@@ -6,11 +8,11 @@ import { FormattedMessage } from 'react-intl'
 import { FaTimes } from 'react-icons/fa'
 import { RxHamburgerMenu } from 'react-icons/rx'
 import WebSiteInfo from '../sections/WebSiteInfo'
-import logo from '../assets/logo/logo.svg'
 
-import '../App.css'
+
 
 import Modal from '../components/Reusable/Modal'
+import BottomSection from '../sections/BottomSection'
 
 const Main = () => {
     // nav is starting off false
@@ -73,13 +75,7 @@ const Main = () => {
 
             </button>
           </div>
-          <button onClick={() => scrollToSection(travelstay)} className={'text-[var(--orange)] hover:border-[var(--orange)] border-b-[1px] rounded-xl min-w-20  min-h-10 border-transparent transition-all duration-500 ease-in-out'}>
-            <FormattedMessage
-              id="navbar.travelstay"
-              defaultMessage="Travel & Stay"
-            />
 
-          </button>
 
           <button onClick={() => scrollToSection(details)} className={'text-[var(--orange)] hover:border-[var(--orange)] border-b-[1px] rounded-xl min-w-20  min-h-10 border-transparent transition-all duration-500 ease-in-out'}>
             <FormattedMessage
@@ -88,7 +84,13 @@ const Main = () => {
             />
 
           </button>
+          <button onClick={() => scrollToSection(travelstay)} className={'text-[var(--orange)] hover:border-[var(--orange)] border-b-[1px] rounded-xl min-w-20  min-h-10 border-transparent transition-all duration-500 ease-in-out'}>
+            <FormattedMessage
+              id="navbar.travelstay"
+              defaultMessage="Travel & Stay"
+            />
 
+          </button>
           <button onClick={() => setModalVisibility(true)} className={'text-[var(--background)] font-normal bg-[var(--orange)] opacity-100  px-3 rounded-xl min-w-20 min-h-10 transition-all duration-500 ease-in-out hover:animate-wiggle'}>
             <FormattedMessage
               id="navbar.contact"
@@ -122,18 +124,19 @@ const Main = () => {
 
             </div>
 
-            <div onClick={() => scrollToSection(travelstay)} className="text-[var(--orange)]">
-              <FormattedMessage
-                id="navbar.travelstay"
-                defaultMessage="Travel & Stay"
-              />
-            </div>
+           
             <div onClick={() => scrollToSection(details)} className="text-[var(--orange)]">
               <FormattedMessage
                 id="navbar.details"
                 defaultMessage="Details"
               />
 
+            </div>
+            <div onClick={() => scrollToSection(travelstay)} className="text-[var(--orange)]">
+              <FormattedMessage
+                id="navbar.travelstay"
+                defaultMessage="Travel & Stay"
+              />
             </div>
             <div onClick={() => setModalVisibility(true)} className="text-[var(--orange)]">
               <FormattedMessage
@@ -152,6 +155,7 @@ const Main = () => {
       <div className='content '>
          
         <section className="relative h-auto flex-row ">
+
            <div className={`${isModalOpen
               ? 'opacity-100'
               : 'opacity-0'
@@ -169,19 +173,19 @@ const Main = () => {
           <div ref={story} className="story">
             <Story />
           </div>
+        
+          <div ref={details} className="details">
+            <Details />
+          </div>
           <div ref={travelstay} className="travelstay">
             <TravelStay />
           </div>
-          <div ref={details} className="details">
-
-            <Details />
-          </div>
-      
           <div className="websiteInfo">
 
             <WebSiteInfo />
           </div>
-          <Footer className="flex " />
+          <BottomSection/>
+          <Footer className="flex" />
         </section>
       </div>
 

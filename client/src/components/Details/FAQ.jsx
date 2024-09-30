@@ -4,8 +4,8 @@ import WeddingColourButtons from '../Reusable/WeddingColourButtons';
 
 const FAQ = () => {
     return (
-        <div className='pt-16'>
-            <div className="sm:text-4xl md:text-5xl text-3xl flex justify-center text-vlorange p-12">
+        <div className='pt-28 pb-28'>
+            <div className="sm:text-4xl md:text-5xl text-3xl flex justify-center  bg-[var(--dark-green)] text-[var(--background)] pb-10">
                 <FormattedMessage id="faq.title" defaultMessage="Frequently asked questions" />
             </div>
             <div className="  p-4 bg-lorange rounded-lg">

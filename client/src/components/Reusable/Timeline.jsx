@@ -28,7 +28,7 @@ import { FormattedMessage } from 'react-intl'
 function Timeline() {
     return (
         <section className="timeline-box">
-            <div className="swiper-container text-center">
+            <div className="swiper-container text-center  text-[var(--background)] overflow-hidden">
                 <div className="swiper-wrapper">
 
                     <div className="swiper-slide">

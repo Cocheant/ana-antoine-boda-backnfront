@@ -17,7 +17,12 @@
     "navbar.contact": "Confirmer ma présence",
 
     "home.hero.gettingmarried": "On va se marier!",
-    "home.secondText": "Molino Galán, Alborache, Espagne",
+    "home.molinogalan": "Molino Galán",
+    "home.arrivalTime":"Arrivée: 18.30",
+    "home.ceremonyTime":"Cérémonie: 19.00",
+    "global.address1":"Partida del Molino Galán",
+    "global.address2":"46369 - Alborache",
+    "global.address3":"Valencia, Espagne",
 
 "story.title": "Notre histoire!",
   "story.image.firstPic": "Rencontre à Toronto",
@@ -42,14 +47,19 @@
   "story.image.scotlandDate": "Avril 2023",
   "story.image.engagedDate": "10 Février 2024",
 
-    "travelstay.title": "Où aura lieu l'événement ?",
+  "travelstay.title": "Comment venir ?",
 
+  "travelstay.place": "Masía Rural Molino Galán",
+    "travelstay.address": "Partida del Molino Galán, 46369 - Alborache, Espagne",
+  "travelstay.cartaxi":       "Voiture / Taxi:",
+  "travelstay.cartaxiText1": "Le lieu de la cérémonie est un peu éloigné de la ville, nous conseillons donc aux personnes qui souhaitent se déplacer et visiter des endroits de disposer d'une voiture.",
+  "travelstay.cartaxiText2": "Il est également possible d'y arriver en taxi.",
 
+  "travelstay.autobus": "Bus :",
+  "travelstay.autobusText1": "Pour le samedi, nous aurons des bus qui iront de Chiva à Molino Galán. Les personnes intéressées par ce trajet devront l'indiquer dans le formulaire de participation.",
+  "travelstay.autobusText2": "Horaires : À définir.",
 
-
-
-    "faq.title": "Foire aux questions",
-
+  "faq.title": "Questions fréquentes",
 
    "faq.dressCode":            "Quel est le code vestimentaire?",
   "faq.dressCodeanswer":      "Le code vestimentaire pour le mariage sera formel. Nous vous invitons à suivre cette palette de couleurs pour les tenues, ce n'est pas obligatoire mais recommandé.",

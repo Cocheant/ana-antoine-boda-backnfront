@@ -21,20 +21,20 @@ const LeafletMap = () => {
     return (
         <Suspense>
 
-            <div className=' w-full max-w-3xl -z-0 border-t-4 border-b-4 border-[var(--orange)] '>
-                <MapContainer className='h-96  max-w-3xl ' center={[39.4338, -0.7138]} zoom={10} >
-                    <Marker position={[39.40332, -0.77131]}>
-                        <Popup>
-                            Molino Galán <br /> 46369 Alborache, Valencia, Espagne
-                        </Popup>
-                    </Marker>
-                    <TileLayer
-                        attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a>'
-                        url="https://{s}.tile.osm.org/{z}/{x}/{y}.png"
-                    />
+                <div className="border-t-4 border-b-4 border-[var(--orange)]">
+                    <MapContainer className='h-96  max-w-3xl ' center={[39.4338, -0.7138]} zoom={10} >
+                        <Marker position={[39.40332, -0.77131]}>
+                            <Popup>
+                                Molino Galán <br /> 46369 Alborache, Valencia, Espagne
+                            </Popup>
+                        </Marker>
+                        <TileLayer
+                            attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a>'
+                            url="https://{s}.tile.osm.org/{z}/{x}/{y}.png"
+                        />
 
-                </MapContainer>
-            </div>
+                    </MapContainer>
+                </div>
         </Suspense>
 
     );
