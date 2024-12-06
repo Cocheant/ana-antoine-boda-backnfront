@@ -1,5 +1,5 @@
 import { FormattedMessage } from "react-intl"
-import Timeline from "../components/Reusable/Timeline"
+import Timeline from "../components/Reusable/Timelinev2"
 
 const Story = () => {
     return (

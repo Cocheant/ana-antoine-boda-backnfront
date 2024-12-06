@@ -6,7 +6,7 @@
 
 .timeline-box {
   height: auto; 
-  padding: 10px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
   width: 100%;
   background-color: transparent;
 }
@@ -21,7 +21,7 @@
 
 .timeline-box .timestamp {
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   padding: 0px 4px;
   display: flex;
   flex-direction: column;
@@ -30,7 +30,6 @@
 
   text-align: center;
   align-items: center;
-  max-width: 300px;
   min-width: 150px;
 }
 
@@ -49,7 +48,7 @@
 }
 
 .timeline-box .status span {
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .timeline-box .status span h1 {
@@ -103,12 +102,13 @@
 
 .timeline-illustration{
 
-    margin-right: 5px;
+    margin-right: 40px;
     margin-left: 5px;
     margin-top: 5px;
+    margin-bottom: 20px;
+
     pointer-events: none;
-    max-width: 200px;
-    min-width: 150px;
+     min-width: 500px; 
     border-radius: 1.5%;
     border: 2px solid lightgray;
     border-width: 4px;
