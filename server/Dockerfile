@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-alpine
 WORKDIR /app
 
 # Step 3: Copy the jar file produced by Spring Boot build into the container
-COPY target/weddingApp-0.0.1-SNAPSHOT.jar weddingapp.jar
+COPY target/weddingApp-0.0.1-SNAPSHOT.jar  /app/weddingapp.jar
 
 # Step 4: Expose the port that your Spring Boot app runs on (usually 8080)
 EXPOSE 8080

@@ -1,9 +1,7 @@
-import { FormattedMessage } from "react-intl"
-import InConstruction from "../components/Reusable/InConstruction"
+
 
 const WebSiteInfo = () => {
 
-    const isInConstruction = true;
 
     return (
         <section className="relative flex-row">

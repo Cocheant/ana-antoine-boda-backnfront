@@ -3,7 +3,7 @@ import { FormattedMessage } from "react-intl"
 import { useEffect, useState } from "react";
 
 import mainUs from '../assets/img/photos/mainUs.png'
-import scotlandLake from '../assets/img/photos/scotlandLake.jpg'
+// import scotlandLake from '../assets/img/photos/scotlandLake.jpg'
 
 
 

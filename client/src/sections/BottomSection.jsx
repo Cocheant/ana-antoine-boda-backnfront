@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import monetDuo from '../assets/img/photos/monetDuo.jpg'
-import { IntlContext, IntlProvider } from 'react-intl'
+import { IntlContext } from 'react-intl'
 
 const BottomSection = () => {
 

@@ -8,7 +8,7 @@
   height: auto; 
   padding: 10px 0px 0px 0px;
   width: 100%;
-  background-color: var(--dark-green);
+  background-color: transparent;
 }
 
 .timeline-box .timeline {
@@ -81,12 +81,14 @@
   width: 100%; 
   margin: auto;
   overflow-y: auto;
+  overflow-x:auto;
+
 }
 .swiper-wrapper{
   display: inline-flex;
   flex-direction: row;
   overflow-y:auto;
-  overflow-x:hidden;
+  overflow-x:auto;
 
   justify-content: center;
 }

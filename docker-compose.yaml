@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   db:
-    image: mysql:8
+    image: mysql:5.7  # Use a compatible version
     restart: always  
     env_file:
       - ./.env 
@@ -41,7 +41,7 @@ services:
     networks:
       - app-network
     ports:
-      - "80:80"
+      - "8080:80"
     
 volumes:
   db_data:

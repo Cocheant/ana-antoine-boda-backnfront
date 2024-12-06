@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import '../App.css'
 
 import { Home, Story, TravelStay, Details } from '../pages'
@@ -13,12 +13,31 @@ import WebSiteInfo from '../sections/WebSiteInfo'
 
 import Modal from '../components/Reusable/Modal'
 import BottomSection from '../sections/BottomSection'
+import { IntlContext } from 'react-intl'
+import Valencia from '../sections/Valencia'
+
+
 
 const Main = () => {
     // nav is starting off false
   const [nav, setNav] = useState(false);
 
-  var state = "home";
+  // var state = "home";
+
+  const localeCtx = useContext(IntlContext);
+
+  let shortLang = localeCtx.locale;
+
+  if (shortLang.indexOf('-') !== -1)
+      shortLang = shortLang.split('-')[0];
+
+  if (shortLang.indexOf('_') !== -1)
+      shortLang = shortLang.split('_')[0];
+
+  const esUrl = "https://docs.google.com/forms/d/e/1FAIpQLSd_pJ736Z167zyvnTnT5RFVxmRY0vafldxVYttUbr7nFERk6A/viewform";
+  const frUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeJYnxriMUG8OE4n7x0iADdi2n0l02m1wQ7NAjTlwGR66JN1A/viewform";
+  const enUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeZqB3IMBDNKT1zRK67pcrytIkkRQIB2r5wLGmGx92VANqf8A/viewform";
+
 
   // so when user clicks the hamburger button, it goes from false(!nav) to true(nav)
   const handleClick = () => setNav(!nav);
@@ -27,17 +46,27 @@ const Main = () => {
   const story = useRef(null);
   const travelstay = useRef(null);
   const details = useRef(null);
-  const contact = useRef(null);
+  const valencia = useRef(null);
+
+  // const contact = useRef(null);
 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const setModalVisibility = (bShow) => {
-    setIsModalOpen(bShow);
+  const openSurveyURL = () => {
+    var url = enUrl;
+    if(shortLang === "es"){
+      url = esUrl;
+    }
+    else if(shortLang === "fr"){
+      url = frUrl;
+    }
+    var win = window.open(url, '_blank');
+    win.focus();
   };
 
   const scrollToSection = (elementRef) => {
 
-    state = elementRef.current.className;
+    // state = elementRef.current.className;
 
     window.scrollTo({
       top: elementRef.current.offsetTop - 71,
@@ -91,7 +120,15 @@ const Main = () => {
             />
 
           </button>
-          <button onClick={() => setModalVisibility(true)} className={'text-[var(--background)] font-normal bg-[var(--orange)] opacity-100  px-3 rounded-xl min-w-20 min-h-10 transition-all duration-500 ease-in-out hover:animate-wiggle'}>
+          <button onClick={() => scrollToSection(valencia)} className={'text-[var(--orange)] hover:border-[var(--orange)] border-b-[1px] rounded-xl min-w-20  min-h-10 border-transparent transition-all duration-500 ease-in-out'}>
+          <FormattedMessage
+                id="navbar.valencia"
+                defaultMessage="Visiting Valencia"
+              />
+          </button>
+
+       
+          <button onClick={() => openSurveyURL()} className={'text-[var(--background)] font-normal bg-[var(--orange)] opacity-100  px-3 rounded-xl min-w-20 min-h-10 transition-all duration-500 ease-in-out hover:animate-wiggle'}>
             <FormattedMessage
               id="navbar.contact"
               defaultMessage="Confirm Presence"
@@ -138,7 +175,14 @@ const Main = () => {
                 defaultMessage="Travel & Stay"
               />
             </div>
-            <div onClick={() => setModalVisibility(true)} className="text-[var(--orange)]">
+            <div onClick={() => scrollToSection(valencia)} className="text-[var(--orange)]">
+              <FormattedMessage
+                id="navbar.valencia"
+                defaultMessage="Visiting Valencia"
+              />
+
+            </div>
+            <div onClick={() => openSurveyURL()} className="text-[var(--orange)]">
               <FormattedMessage
                 id="navbar.contact"
                 defaultMessage="Contact"
@@ -180,9 +224,13 @@ const Main = () => {
           <div ref={travelstay} className="travelstay">
             <TravelStay />
           </div>
+           
+          <div ref={valencia} className="valencia">
+            <Valencia />
+          </div>
           <div className="websiteInfo">
 
-            <WebSiteInfo />
+            {/* <WebSiteInfo /> */}
           </div>
           <BottomSection/>
           <Footer className="flex" />
