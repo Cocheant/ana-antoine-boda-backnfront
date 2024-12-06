@@ -83,6 +83,26 @@
     "faq.venueanswer":          "Para el sábado contaremos con autobuses que irán desde Chiva hasta Molino Galán. Las personas interesadas en este trayecto deberán indicarlo en el formulario de asistencia",
 
     "faq.sleep":                "Alojamiento para las personas que vienen de lejos",
-    "faq.sleepanswer":          "En el mismo lugar de la boda se encuentran vuestros alojamientos y podréis quedaros desde el viernes hasta el domingo. Será muy importante que confirméis vuestra asistencia para que podamos reservar vuestros dormitorios."
+    "faq.sleepanswer":          "En el mismo lugar de la boda se encuentran vuestros alojamientos y podréis quedaros desde el viernes hasta el domingo. Será muy importante que confirméis vuestra asistencia para que podamos reservar vuestros dormitorios.",
+
+     "tourism.howtoreach":"¿Cómo llegar?",
+     "tourism.visits":"¿Qué visitar?",
+
+    "tourism.visits.center.title": "CENTRO",
+    "tourism.visits.center.text": "Os aconsejamos ver el Mercat Central, la Lonja, los antiguos palacios de la calle Caballeros y pasear por las calles antiguas hasta la Plaza de la Virgen.{breakingLine} Subir a las Torres de Serrano, no hay muchas escaleras, y para las personas más en forma, subir a El Miguelete que tiene 207 escalones.{breakingLine}También os recomendamos ver la Estación del Norte de estilo modernista valenciano.{breakingLine}Y si queréis ir de compras, en la Calle Colón podréis encontrar de todo.",
+
+    "tourism.visits.turia.title": "JARDÍN DEL TURIA Y LA CIUDAD DE LAS ARTES Y LAS CIENCIAS",
+    "tourism.visits.turia.text": "Paseando por el Jardín del Turia podéis ver los edificios futuristas de La Ciudad de las Artes y las Ciencias, donde encontrarás un museo científico, un cine IMAX o un acuario.{breakingLine}También podéis acercaros al Parque Gulliver, una escultura monumental de Gulliver de 70 metros, a la que se puede acceder a través de rampas, toboganes, escaleras...",
+
+    "tourism.visits.albufera.title": "LA ALBUFERA Y PLAYAS",
+    "tourism.visits.albufera.text": "El Parque Natural de la Albufera es es una laguna costera rodeado de arrozales y bosque. Donde se puede ir a dar un paseo en barca y disfrutar del atardecer. Puedes acercarte por el pueblo El Palmar para comer un buen menú de Paella y otros platos típicos como el All i Pebre de anguila. Te recomendamos el Restaurante Mateu o Restaurante El Palmar.{breakingLine}En cuanto a playas, puedes acercarte a El Saler, playa bastante tranquila junto a La Albufera.{breakingLine}Si por el contrario quieres una playa con más vida, te recomendamos acercarte a la Malvarrosa junto al Cabanyal, barrio pesquero de Valencia.{breakingLine}Si tenéis más tiempo, las playas de Xàbia y Denia son una maravilla (aunque hay que tener en cuenta que en muchas solo se puede llegar andando).",
+
+    
+    "tourism.visits.museos.title": "MUSEOS",
+    "tourism.visits.museos.text": "Os recomendamos visitar el Centre del Carme Cultura Contemporània (CCCC), museo de arte contemporáneo en un antiguo convento situado muy cerca de las Torres de Serrano. Su visita es gratuita y suele hacer diversas actividades como conciertos o performances.{breakingLine}El Instituto Valenciano de Arte Moderno (IVAM) es uno de los grandes museos españoles. Si eres amante del arte contemporáneo, no te lo puedes perder.{breakingLine}Y si te gusta más el arte clásico visita el Museo de Bellas Artes San Pio V, la segunda mayor pinacoteca de España con obra de los siglos XV al XIX, donde destacan las salas dedicadas a Sorolla, así como la destinada a Francisco de Goya.",
+
+    "tourism.gastronomy":"Gastronomía",
+    "tourism.activities":"Actividades"
+
 
 }

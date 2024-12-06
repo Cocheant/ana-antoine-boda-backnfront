@@ -24,7 +24,7 @@ const Tourism = () => {
                     </ul>
                 </AccordionMenu> 
 
-                <AccordionMenu title="tourism.visit" >
+                <AccordionMenu title="tourism.visits" >
                     <Visits/>
                 </AccordionMenu> 
 
@@ -33,7 +33,7 @@ const Tourism = () => {
                 </AccordionMenu> 
 
                 <AccordionMenu title="tourism.activities"  >
-
+                    Activities
                 </AccordionMenu>
 
             </div>

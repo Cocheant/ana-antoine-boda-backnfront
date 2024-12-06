@@ -96,6 +96,10 @@
 
 
     "faq.sleep":                "Where can I sleep?",
-    "faq.sleepanswer":          "We'll make sure everyone that comes from far will be accomodated, and we'll let you know personally."
+    "faq.sleepanswer":          "We'll make sure everyone that comes from far will be accomodated, and we'll let you know personally.",
+
+
+    "tourism.visits.center.title": "Center",
+    "tourism.visits.center.text": "Os aconsejamos ver el Mercat Central, la Lonja, los antiguos palacios de la calle Caballeros y pasear por las calles antiguas hasta la Plaza de la Virgen. Subir a las Torres de Serrano, no hay muchas escaleras, y para las personas más en forma, subir a El Miguelete que tiene 207 escalones. También os recomendamos ver la Estación del Norte de estilo modernista valenciano. Y si queréis ir de compras, en la Calle Colón podréis encontrar de todo."
 
 }
