@@ -15,7 +15,7 @@ const Sight = ({title, image,  text}) => {
           </span>
       </div>
       <div>
-      <h1>
+      <h1 className='text-justify'>
           <FormattedMessage id={""+text} defaultMessage="default text" values={{
      breakingLine: <br />,
    }}/>

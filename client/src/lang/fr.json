@@ -15,6 +15,8 @@
     "navbar.travelstay": "Voyage & Séjour",
     "navbar.details": "Informations",
     "navbar.contact": "Confirmer ma présence",
+    "navbar.valencia":"Visiter Valencia",
+
 
     "home.hero.gettingmarried": "On va se marier!",
     "home.molinogalan": "Molino Galán",
@@ -69,10 +71,41 @@
 
   "faq.gift":                 "Cadeaux de mariage",
   "faq.giftanswer":           "Nous n'avons pas de liste de cadeaux, mais si vous souhaitez contribuer, une boîte sera disponible lors du mariage pour nous aider à financer notre voyage de noces. Vous pourrez y déposer votre enveloppe ou nous contacter si vous préférez le donner avant le mariage.",
-
-  "faq.venue":                "Y aura-t-il un bus?",
-  "faq.venueanswer":          "Le samedi, des bus seront disponibles pour faire le trajet de Chiva jusqu'au Molino Galán. Les personnes intéressées par ce trajet devront l'indiquer dans le formulaire de participation.",
+ 
+  "faq.venue":                "Comment venir jusqu'à Molino Galán?",
+  "faq.venueanswer":          "Notre recommandation est de venir en taxi, ou en voiture, car c'est un peu loin de la ville!",
 
   "faq.sleep":                "Hébergement pour ceux qui viennent de loin",
-  "faq.sleepanswer":          "Sur place, vous trouverez vos hébergements et vous pourrez y rester du vendredi au dimanche. Il est très important de confirmer votre présence afin que nous puissions réserver vos chambres."
+
+  "faq.sleepanswer":          "Sur place, vous trouverez vos hébergements et vous pourrez y rester du vendredi au dimanche. Il est très important de confirmer votre présence afin que nous puissions réserver vos chambres.",
+
+
+  "tourism.reach.manises":"En avion depuis l'aéroport Manises (VLC)",
+  "tourism.reach.train":"En train depuis la france avec un changement à Barcelone",
+  "tourism.reach.car":"En voiture",
+
+
+
+  "tourism.howtoreach": "Comment y arriver ?",
+  "tourism.visits": "Que visiter ?",
+  "tourism.visits.text": "Si vous voulez en savoir un peu plus sur Valence, voici quelques idées et une carte où vous pouvez trouver plusieurs lieux marqués.",
+  "tourism.visits.button": "Carte de Valence",
+
+  "tourism.visits.center.title": "CENTRE",
+  "tourism.visits.center.text": "Nous vous conseillons de visiter le Marché Central, la Lonja, les anciens palais de la rue Caballeros et de vous promener dans les rues anciennes jusqu'à la Plaza de la Virgen.{breakingLine} Montez aux Tours de Serrano, il n'y a pas beaucoup de marches, et pour les plus sportifs, montez au Miguelete qui compte 207 marches.{breakingLine}Nous vous recommandons également de voir la Gare du Nord de style moderniste valencien.{breakingLine}Et si vous souhaitez faire du shopping, la rue Colón regorge de magasins pour tous les goûts.",
+
+  "tourism.visits.turia.title": "JARDIN DU TURIA ET CITÉ DES ARTS ET DES SCIENCES",
+  "tourism.visits.turia.text": "En vous promenant dans le Jardin du Turia, vous pourrez voir les bâtiments futuristes de la Cité des Arts et des Sciences, où se trouvent un musée scientifique, un cinéma IMAX et un aquarium.{breakingLine}Vous pouvez également visiter le Parc Gulliver, une sculpture monumentale de Gulliver de 70 mètres, accessible via des rampes, des toboggans et des escaliers.",
+
+  "tourism.visits.albufera.title": "L'ALBUFERA ET LES PLAGES",
+  "tourism.visits.albufera.text": "Le Parc Naturel de l'Albufera est une lagune côtière entourée de rizières et de forêt. Vous pouvez faire un tour en barque et profiter du coucher de soleil. Vous pouvez également visiter le village d'El Palmar pour déguster un bon menu de paella et d'autres plats typiques comme l'All i Pebre d'anguille. Nous vous recommandons le Restaurant Mateu ou le Restaurant El Palmar.{breakingLine}En ce qui concerne les plages, vous pouvez aller à El Saler, une plage plutôt tranquille près de l'Albufera.{breakingLine}Si vous préférez une plage plus animée, nous vous recommandons de visiter la Malvarrosa, près du Cabanyal, le quartier de pêcheurs de Valence.{breakingLine}Si vous avez plus de temps, les plages de Xàbia et Denia sont magnifiques (bien que beaucoup soient accessibles uniquement à pied).",
+
+  "tourism.visits.museos.title": "MUSÉES",
+  "tourism.visits.museos.text": "Nous vous recommandons de visiter le Centre del Carme Cultura Contemporània (CCCC), un musée d'art contemporain situé dans un ancien couvent, tout près des Tours de Serrano. La visite est gratuite et propose souvent diverses activités comme des concerts ou des performances.{breakingLine}L'Institut Valencien d'Art Moderne (IVAM) est l'un des grands musées espagnols. Si vous êtes amateur d'art contemporain, ne le manquez pas.{breakingLine}Et si vous préférez l'art classique, visitez le Musée des Beaux-Arts San Pio V, la deuxième plus grande pinacothèque d'Espagne avec des œuvres du XVe au XIXe siècle, notamment les salles consacrées à Sorolla et Francisco de Goya.",
+
+  "tourism.gastronomy": "Gastronomie",
+  "tourism.gastronomy.title": " ",
+
+  "tourism.gastronomy.text": "Nous vous recommandons d'essayer différents plats typiques de cette région d'Espagne. En particulier :{breakingLine}{breakingLine}-        La Paella. Il existe différents types de paella. La plus typique est la paella valencienne (attention, elle contient du lapin). Il y a aussi le riz al senyoret (riz avec poisson) ou le riz noir (riz à l'encre de calamar).{breakingLine}{breakingLine}-        Riz au four. C'est un autre plat à base de riz, cuit au four avec de la viande de porc comme le chorizo, des pois chiches, des pommes de terre…{breakingLine}{breakingLine}{breakingLine}Quelques-unes de nos tapas préférées :{breakingLine}{breakingLine}-        Les patatas bravas{breakingLine}{breakingLine}-        La sartén avec des œufs et de la chistorra{breakingLine}{breakingLine}-        Les chipirons frits{breakingLine}{breakingLine}{breakingLine}Si vous voulez essayer des douceurs :{breakingLine}{breakingLine}-        Churros au chocolat{breakingLine}{breakingLine}-        Beignets de courge au chocolat{breakingLine}{breakingLine}-        Horchata avec fartons. C'est une boisson froide typique de Valence. Nous l'aimons beaucoup, mais elle a une texture particulière. Nous vous recommandons de l'essayer à plusieurs et, si vous l'appréciez, d'en acheter davantage."
+
 }

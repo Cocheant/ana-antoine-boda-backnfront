@@ -15,6 +15,8 @@
     "navbar.travelstay": "Viajar & Hospedaje",
     "navbar.details": "Información",
     "navbar.contact": "Confirmar asistencia",
+    "navbar.valencia":"Visitar Valencia",
+
 
     "home.hero.gettingmarried": "¡Nos casamos!",
 
@@ -85,8 +87,10 @@
     "faq.sleep":                "Alojamiento para las personas que vienen de lejos",
     "faq.sleepanswer":          "En el mismo lugar de la boda se encuentran vuestros alojamientos y podréis quedaros desde el viernes hasta el domingo. Será muy importante que confirméis vuestra asistencia para que podamos reservar vuestros dormitorios.",
 
-     "tourism.howtoreach":"¿Cómo llegar?",
-     "tourism.visits":"¿Qué visitar?",
+    "tourism.howtoreach":"¿Cómo llegar?",
+    "tourism.visits":"¿Qué visitar?",
+    "tourism.visits.text": "Si quieres conocer un poco más Valencia os dejamos algunas ideas y un mapa donde podéis encontrar varios lugares marcados.",
+    "tourism.visits.button":"Mapa de Valencia",
 
     "tourism.visits.center.title": "CENTRO",
     "tourism.visits.center.text": "Os aconsejamos ver el Mercat Central, la Lonja, los antiguos palacios de la calle Caballeros y pasear por las calles antiguas hasta la Plaza de la Virgen.{breakingLine} Subir a las Torres de Serrano, no hay muchas escaleras, y para las personas más en forma, subir a El Miguelete que tiene 207 escalones.{breakingLine}También os recomendamos ver la Estación del Norte de estilo modernista valenciano.{breakingLine}Y si queréis ir de compras, en la Calle Colón podréis encontrar de todo.",
@@ -102,7 +106,9 @@
     "tourism.visits.museos.text": "Os recomendamos visitar el Centre del Carme Cultura Contemporània (CCCC), museo de arte contemporáneo en un antiguo convento situado muy cerca de las Torres de Serrano. Su visita es gratuita y suele hacer diversas actividades como conciertos o performances.{breakingLine}El Instituto Valenciano de Arte Moderno (IVAM) es uno de los grandes museos españoles. Si eres amante del arte contemporáneo, no te lo puedes perder.{breakingLine}Y si te gusta más el arte clásico visita el Museo de Bellas Artes San Pio V, la segunda mayor pinacoteca de España con obra de los siglos XV al XIX, donde destacan las salas dedicadas a Sorolla, así como la destinada a Francisco de Goya.",
 
     "tourism.gastronomy":"Gastronomía",
-    "tourism.activities":"Actividades"
+    "tourism.gastronomy.title":" ",
+
+    "tourism.gastronomy.text":"Os recomendamos probar distintos platos típicos de esta zona de España. En particular:{breakingLine}{breakingLine}-        La Paella. Hay distintos tipos de paella. La más típica es la paella Valenciana (avisamos de que lleva conejo). También el arroz al senyoret (arroz con pescado) o arroz negro (arroz con tinta de calamar).{breakingLine}{breakingLine}-        Arroz al horno. Es otro plato hecho con arroz, en esta versión se cocina al horno y lleva carne de cerdo como el chorizo y garbanzos, patata…{breakingLine}{breakingLine}{breakingLine}Algunas de nuestras tapas favoritas son:{breakingLine}{breakingLine}-        Las bravas{breakingLine}{breakingLine}-        La sartén con huevos y chistorra{breakingLine}{breakingLine}-        Los chipirones fritos{breakingLine}{breakingLine}{breakingLine}Si queréis probar comida dulce.{breakingLine}{breakingLine}-        Churros con chocolate{breakingLine}{breakingLine}-        Buñuelos de calabaza con chocolate{breakingLine}{breakingLine}-        Horchata con fartons. Es una bebida típica fría de Valencia. A Nosotros nos gusta mucho, pero tiene una textura especial, recomendamos que la probéis a varios y si os gusta os compréis más."
 
 
 }
