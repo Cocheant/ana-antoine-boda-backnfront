@@ -15,6 +15,8 @@ import Modal from '../components/Reusable/Modal'
 import BottomSection from '../sections/BottomSection'
 import { IntlContext } from 'react-intl'
 import Valencia from '../sections/Valencia'
+import ConfirmationSection from '../sections/ConfirmationSection'
+import ConfirmButton from '../components/Reusable/ConfirmButton'
 
 
 
@@ -23,21 +25,6 @@ const Main = () => {
   const [nav, setNav] = useState(false);
 
   // var state = "home";
-
-  const localeCtx = useContext(IntlContext);
-
-  let shortLang = localeCtx.locale;
-
-  if (shortLang.indexOf('-') !== -1)
-      shortLang = shortLang.split('-')[0];
-
-  if (shortLang.indexOf('_') !== -1)
-      shortLang = shortLang.split('_')[0];
-
-  const esUrl = "https://docs.google.com/forms/d/e/1FAIpQLSd_pJ736Z167zyvnTnT5RFVxmRY0vafldxVYttUbr7nFERk6A/viewform";
-  const frUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeJYnxriMUG8OE4n7x0iADdi2n0l02m1wQ7NAjTlwGR66JN1A/viewform";
-  const enUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeZqB3IMBDNKT1zRK67pcrytIkkRQIB2r5wLGmGx92VANqf8A/viewform";
-
 
   // so when user clicks the hamburger button, it goes from false(!nav) to true(nav)
   const handleClick = () => setNav(!nav);
@@ -52,18 +39,6 @@ const Main = () => {
 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const openSurveyURL = () => {
-    var url = enUrl;
-    if(shortLang === "es"){
-      url = esUrl;
-    }
-    else if(shortLang === "fr"){
-      url = frUrl;
-    }
-    var win = window.open(url, '_blank');
-    win.focus();
-  };
-
   const scrollToSection = (elementRef) => {
 
     // state = elementRef.current.className;
@@ -75,10 +50,11 @@ const Main = () => {
   };
   return (
     <main className='bg-[var(--background)] h-screen '>
-      <header className="flex fixed  w-full justify-center gap-12 p-4 items-center px-8 py-4  mx-auto bg-[var(--background)] opacity-90 z-10 right-0 -left-0 top-0  select-none">
-        <button onClick={() => scrollToSection(home)} className="items-center justify-start flex font-bold cursor-pointer rounded-xl">
-          
-          <svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 924.66 126.66" className='w-52 cursor-pointer'>
+      <header className="flex fixed  w-full justify-center gap-14 p-1 items-center px-8   mx-auto bg-[var(--background)] opacity-90 z-10 right-0 -left-0 top-0  select-none">
+      
+        <button onClick={() => scrollToSection(home)} className="items-center justify-start flex font-bold cursor-pointer rounded-xl py-5 ">
+
+          <svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 924.66 126.66" className='w-40 cursor-pointer'>
             <path className="cls-1" d="M101.98,125.83h-18.36l-9.29-27.92H14.1L.73,126.4l-.73-.74,13.22-28.33v-.46h.22L48.88,21.39,41.76,0h18.36l41.86,125.83ZM73.99,96.87L49.36,22.83,14.6,96.87h59.39ZM51.06,62.58v-.02s0-.07,0-.11c0,.04,0,.08,0,.12Z"/>
             <path className="cls-1" d="M189.79,125.82h-12.8v-.16h-5.05c-6.73,0-12.18-5.44-12.2-12.16-.02-6.14-.04-13.4-.07-18.83,0-23.37-7.65-36.12-18.49-39.21-6.13-1.75-13.74-.68-22.78,4.72,2.84,3.72,5,8.99,5,17.83v35.11c0,3.56,1.2,6.56,3.61,9.01,2.4,2.45,5.53,3.68,9.37,3.68h-17.44c-3.85,0-7.02-1.23-9.52-3.68-2.5-2.45-3.75-5.45-3.75-9.01l-.55-71.05c0,9.31,7.39,10.93,12.77,17.48,28.24-20.23,48.57-5.81,56.2,13.9,1.17,3.03,2.87,11.31,2.87,25.29.05,5.79.1,12.15.15,17.24.48,2.33,1.58,4.39,3.3,6.15,2.4,2.45,5.53,3.68,9.37,3.68h0Z"/>
             <path className="cls-1" d="M270.81,126.58h-17.44c-3.85,0-7.02-1.22-9.52-3.68-2.5-2.45-3.75-5.45-3.75-9.01l.53-41.99c-.44,2.62-2.97,7.71-15.2,11.43-27.86,9.71-25.13,40.41,1.68,35.43,0,0-24.79,12.81-34.11,5.7-12.52-10.57-4.09-38.29,34.42-43.3,14.04-2.96,12.69-13.71,12.69-13.71,0-3.75-1.61-9.07-4.01-11.47-2.31-2.13-6.3-3.2-10.52-3.32-12.88.56-18.35,12.46-18.7,18.81l-9.85-3.43c2.25-9.37,18.35-17.06,32.63-16.4,9.68.21,19.96,4.38,24.94,13.58,2.16,3.32,3.24,7.14,3.24,11.47v37.21c0,3.56,1.2,6.56,3.61,9.01,2.4,2.45,5.53,3.68,9.37,3.68Z"/>
@@ -128,17 +104,10 @@ const Main = () => {
           </button>
 
        
-          <button onClick={() => openSurveyURL()} className={'text-[var(--background)] font-normal bg-[var(--orange)] opacity-100  px-3 rounded-xl min-w-20 min-h-10 transition-all duration-500 ease-in-out hover:animate-wiggle'}>
-            <FormattedMessage
-              id="navbar.contact"
-              defaultMessage="Confirm Presence"
-            />
-
-
-          </button>
+          <ConfirmButton/>
 
         </nav> 
-        <nav className=" text-base  font-light md:hidden  cursor-pointer select-none">
+        <nav className=" text-base  font-light md:hidden   cursor-pointer select-none">
 
           {/* Mobile Menu */}
 
@@ -182,12 +151,7 @@ const Main = () => {
               />
 
             </div>
-            <div onClick={() => openSurveyURL()} className="text-[var(--orange)]">
-              <FormattedMessage
-                id="navbar.contact"
-                defaultMessage="Contact"
-              />
-            </div>
+            <ConfirmButton/>
 
           </ul>
 
@@ -214,10 +178,16 @@ const Main = () => {
           <div ref={home} className="home">
             <Home />
           </div>
+
+    
           <div ref={story} className="story">
             <Story />
           </div>
-        
+
+          <div >
+            <ConfirmationSection />
+          </div>
+
           <div ref={details} className="details">
             <Details />
           </div>

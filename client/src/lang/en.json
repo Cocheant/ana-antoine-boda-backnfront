@@ -9,6 +9,13 @@
     "global.minutes": "Minutes",
     "global.days": "Days",
 
+
+    "global.welcometext1":"¡Bienvenidos! Bienvenue! Welcome!",
+    "global.welcometext2": "We are so happy to finally share with you our wedding invitation page for our big 2025 project.",
+    "global.welcometext3": "We hope that it shares with you as much excitement as we have.",
+    "global.welcometext4": "Thank you for being part of our journey!",
+
+
     "global.language": "Language",
     "global.reportIssue": "Report Issue",
 
@@ -21,10 +28,10 @@
     "home.hero.gettingmarried": "We are getting married!",
     "home.molinogalan": "Molino Galán",
     
-    "home.arrivalTime":"Arrival: 18.30",
-    "home.ceremonyTime":"Ceremony: 19.00",
+    "home.arrivalTime":"Arrival: ?",
+    "home.ceremonyTime":"Ceremony: ?",
     "global.address1":"Partida del Molino Galán",
-    "global.address2":"46369 - Alborache",
+    "global.address2":"46369 Alborache",
     "global.address3":"Valencia, Spain",
 
 
@@ -36,9 +43,9 @@
     "travelstay.cartaxiText1":  "The ceremony location is a bit far from the city, so we recommend that people who want to move around and visit places have a car.",
     "travelstay.cartaxiText2":  "It is also possible to get there by taxi.",
   
-    "travelstay.autobus":       "Bus:",
-    "travelstay.autobusText1":  "For Saturday, we will have buses going from Chiva to Molino Galán. People interested in this route should indicate it on the attendance form.",
-    "travelstay.autobusText2":  "Schedules: To be determined.",
+    "travelstay.autobus":       " ",
+    "travelstay.autobusText1":  " ",
+    "travelstay.autobusText2":  " ",
     
     "story.title": "Our story!",
     "story.image.firstPic": "We met in Toronto",
@@ -80,7 +87,8 @@
     "story.image.trainHP": "Harry Potter in Scotland!",
     "story.image.monetBridge": "Giverny",
 
-
+"confirmation.accompanyus": "Will you join us on this special day?",
+  "confirmation.answerquestions": "To confirm, you just need to answer the following questions",
     "faq.title": "Frequently asked questions",
 
     "faq.dressCode": "What is the dress code?",
@@ -92,12 +100,10 @@
     "faq.gift": "Wedding gifts",
     "faq.giftanswer": "We do not have a gift registry, but if you wish to contribute, a box will be available at the wedding to help us fund our honeymoon. You can drop your envelope there or contact us if you prefer to give it before the wedding.",
   
-    "faq.venue": "How to get to Molino Galán?",
-    "faq.venueanswer": "We recommend coming by taxi or car, as it is a bit far from the city!",
+    "faq.venue": "Accommodation for those coming from afar",
+    "faq.venueanswer": "On-site, you will find your accommodations, and you can stay from Friday to Sunday. It is very important to confirm your attendance so we can book your rooms.",
   
-    "faq.sleep": "Accommodation for those coming from afar",
-    "faq.sleepanswer": "On-site, you will find your accommodations, and you can stay from Friday to Sunday. It is very important to confirm your attendance so we can book your rooms.",
-  
+
 
     "tourism.reach.manises": "By plane from Manises Airport (VLC)",
     "tourism.reach.train": "By train from France with a connection in Barcelona",
@@ -108,16 +114,16 @@
     "tourism.visits.text": "If you want to learn a bit more about Valencia, here are some ideas and a map where you can find several marked locations.",
     "tourism.visits.button": "Valencia Map",
   
-    "tourism.visits.center.title": "CENTER",
+    "tourism.visits.center.title": "Center",
     "tourism.visits.center.text": "We recommend visiting the Central Market, the Lonja, the old palaces on Caballeros Street, and strolling through the old streets to Plaza de la Virgen.{breakingLine} Climb the Serrano Towers; there aren’t many steps. For the more active, climb El Miguelete, which has 207 steps.{breakingLine}We also recommend seeing the North Station, built in Valencian modernist style.{breakingLine}And if you want to go shopping, Colón Street is full of shops for every taste.",
   
-    "tourism.visits.turia.title": "TURIA GARDENS AND THE CITY OF ARTS AND SCIENCES",
+    "tourism.visits.turia.title": "Turia gardens and The City of Arts and Sciences",
     "tourism.visits.turia.text": "Walking through the Turia Gardens, you can see the futuristic buildings of the City of Arts and Sciences, which houses a science museum, an IMAX cinema, and an aquarium.{breakingLine}You can also visit the Gulliver Park, a monumental 70-meter sculpture of Gulliver, accessible via ramps, slides, and stairs.",
   
-    "tourism.visits.albufera.title": "LA ALBUFERA AND BEACHES",
+    "tourism.visits.albufera.title": "La Albufera and beaches",
     "tourism.visits.albufera.text": "The Albufera Natural Park is a coastal lagoon surrounded by rice fields and forest. You can take a boat ride and enjoy the sunset. You can also visit the village of El Palmar to enjoy a great paella menu and other typical dishes like eel All i Pebre. We recommend Restaurant Mateu or Restaurant El Palmar.{breakingLine}As for beaches, you can visit El Saler, a quiet beach near La Albufera.{breakingLine}If you prefer a livelier beach, we recommend heading to La Malvarrosa near El Cabanyal, Valencia's fishing district.{breakingLine}If you have more time, the beaches of Xàbia and Denia are wonderful (although many are only accessible on foot).",
   
-    "tourism.visits.museos.title": "MUSEUMS",
+    "tourism.visits.museos.title": "Museums",
     "tourism.visits.museos.text": "We recommend visiting the Centre del Carme Cultura Contemporània (CCCC), a contemporary art museum in an old convent located near the Serrano Towers. The visit is free and often hosts activities like concerts or performances.{breakingLine}The Valencian Institute of Modern Art (IVAM) is one of Spain's great museums. If you are a contemporary art lover, don’t miss it.{breakingLine}If you prefer classical art, visit the San Pio V Museum of Fine Arts, Spain's second-largest art gallery, with works from the 15th to 19th centuries, including rooms dedicated to Sorolla and Francisco de Goya.",
   
     "tourism.gastronomy": "Gastronomy",

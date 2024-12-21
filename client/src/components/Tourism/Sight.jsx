@@ -3,8 +3,8 @@ import { FormattedMessage } from 'react-intl'
 
 const Sight = ({title, image,  text}) => {
   return (
-    <div className='bg-transparent flex flex-col justify-center center items-center text-center  gap-8 mx-5 py-3'>  
-      <div className="sm:text-2xl md:text-3xl text-lg">
+    <div className='bg-transparent flex flex-col justify-center     gap-8  py-3'>  
+      <div className="sm:text-2xl md:text-3xl text-lg text-left">
           <FormattedMessage id={title} defaultMessage="default title" />
       </div>
       <div >

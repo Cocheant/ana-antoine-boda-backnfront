@@ -8,7 +8,7 @@ import museos from '../../assets/img/photos/museo.png'
 
 const Visits = () => {
   return (
-    <ul className='flex flex-col gap-20'>
+    <ul className='flex flex-col gap-8 md:gap-20 '>
      <li>
         <Sight image={centro} title="tourism.visits.center.title"  text="tourism.visits.center.text" />
     </li>   

@@ -1,6 +1,6 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Quicksand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -115,22 +115,19 @@
 }
 
 :root {
-
- 
   --light-red: #d56f63;
 
   --orange: #d33d00;
 
   --red: #950028;
 
-
   --yellow: #fcab00;
   --light-green: #7b7e59;
 
   --dark-green: #3a4a2d;
-  --background: #e6e7dc;
+  --background: #eaecde;
 
-  --background-opaque: #e6e7dcc2;
+  --background-opaque: #eaecdec2;
 
   --main-bg: var(--background);
   --dark-bg: var(--background);
@@ -141,9 +138,8 @@
 
   --bright-detail: var(--yellow);
 
-
-  --grey-color-light: rgba(232,230,230,.6);
-  --grey-color: rgba(232,230,230,1);
+  --grey-color-light: rgba(232, 230, 230, 0.6);
+  --grey-color: rgba(232, 230, 230, 1);
 }
 
 img {
@@ -157,47 +153,41 @@ body {
 }
 
 body:has(.card[data-color="green"]:hover) {
-  background-color:var(--background);
+  background-color: var(--background);
 }
-
-
 
 /* width */
 ::-webkit-scrollbar {
-    width: 8px;
-}
- 
-/* Track */
-::-webkit-scrollbar-track {
-    background: var(--background);
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: var(--orange);
-    border-radius: 5px;
-}
- 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: var(--orange);
+  width: 8px;
 }
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--orange);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--orange);
+}
 
 @layer utilities {
   .max-container {
     @apply max-w-5xl mx-auto sm:p-16 pb-12 !pt-[126px] px-8 min-h-[calc(100vh-80px)];
   }
   .orange-gradient_text {
-    @apply bg-gradient-to-r from-[#B45309] to-[#FDBA74] bg-clip-text text-transparent
+    @apply bg-gradient-to-r from-[#B45309] to-[#FDBA74] bg-clip-text text-transparent;
   }
 
   .orange-gradient_bg {
-        @apply bg-gradient-to-r from-[#f8b164] to-[#ffae58] 
-
+    @apply bg-gradient-to-r from-[#f8b164] to-[#ffae58];
   }
-
-
 
   .header {
     @apply flex justify-between items-center px-8 py-4 max-w-7xl mx-auto absolute top-0 bg-transparent z-10 right-0 -left-0;
@@ -205,26 +195,23 @@ body:has(.card[data-color="green"]:hover) {
 
   .footer {
     @apply max-w-5xl mx-auto sm:px-16 pb-6 px-8 flex flex-col gap-7;
-    
   }
 
   .footer-container {
     @apply flex flex-wrap gap-7 items-center justify-between;
   }
 
- 
   .leaflet-container {
     height: 300px;
-}
- 
+  }
 
   .section {
     background: var(--background);
   }
-  
+
   .content {
     background: var(--background);
-    @apply w-full  overflow-auto  
+    @apply w-full  overflow-auto;
   }
 }
 

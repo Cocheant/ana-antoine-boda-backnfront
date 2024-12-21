@@ -33,7 +33,7 @@ function Timeline() {
 
                     <div className="swiper-slide ">
                         <div className="timestamp ">
-                        <img src={firstPic} alt="firstPic" className="timeline-illustration max-w-[200px] sm:max-w-[250px] max-h-[300px]" />
+                        <img src={firstPic} alt="firstPic" className="timeline-illustration min-w-[400px] sm:min-w-[500px] max-w-[200px] sm:max-w-[250px] max-h-[220px] sm:max-h-[280px]" />
 
                             <span className="date">
                             <FormattedMessage id="story.image.firstPicDate" defaultMessage="February 2nd 2016" />
@@ -50,8 +50,7 @@ function Timeline() {
 
                     <div className="swiper-slide">
                         <div className="timestamp ">
-
-                            <img src={italyHoliday} alt="italyHoliday" className="timeline-illustration max-w-[200px] sm:max-w-[250px] max-h-[300px]" />
+                            <img src={italyHoliday} alt="italyHoliday" className="timeline-illustration min-w-[400px] sm:min-w-[500px] max-w-[300px] sm:max-w-[250px] max-h-[220px] sm:max-h-[280px]" />
 
                             <span className="date">
                             <FormattedMessage id="story.image.italyDate" defaultMessage="July 2018" />
@@ -70,7 +69,7 @@ function Timeline() {
 
                     <div className="swiper-slide">
                         <div className="timestamp ">
-                        <img src={parisTrip} alt="parisTrip" className="timeline-illustration max-w-[200px] sm:max-w-[250px] max-h-[300px]" />
+                        <img src={parisTrip} alt="parisTrip" className="timeline-illustration min-w-[400px] sm:min-w-[500px] max-w-[200px] sm:max-w-[250px] max-h-[220px] sm:max-h-[280px]" />
 
                             <span className="date">
                             <FormattedMessage id="story.image.parisDate" defaultMessage="March 2019" />
@@ -89,7 +88,7 @@ function Timeline() {
 
                     <div className="swiper-slide">
                         <div className="timestamp  ">
-                            <img src={lisbon} alt="lisbon" className="timeline-illustration max-w-[200px] sm:max-w-[250px] max-h-[300px]" />
+                            <img src={lisbon} alt="lisbon" className="timeline-illustration min-w-[400px] sm:min-w-[500px] max-w-[200px] sm:max-w-[250px] max-h-[220px] sm:max-h-[280px]" />
                             <span className="date">
                                 <FormattedMessage id="story.image.lisbonDate" defaultMessage="August 2019" /> 
                             
@@ -107,7 +106,7 @@ function Timeline() {
 
                     <div className="swiper-slide">
                         <div className="timestamp ">
-                        <img src={ana25th} alt="ana25th" className="timeline-illustration max-w-[200px] sm:max-w-[250px] max-h-[300px]" />
+                        <img src={ana25th} alt="ana25th" className="timeline-illustration min-w-[400px] sm:min-w-[500px] max-w-[200px] sm:max-w-[250px] max-h-[220px] sm:max-h-[280px]" />
 
                             <span className="date">
                             <FormattedMessage id="story.image.birthdayanaDate" defaultMessage="February 2020" /> 
@@ -126,7 +125,7 @@ function Timeline() {
 
                     <div className="swiper-slide">
                         <div className="timestamp ">
-                            <img src={parisMask} alt="parisMask" className="timeline-illustration max-w-[200px] sm:max-w-[250px] max-h-[300px]" />
+                            <img src={parisMask} alt="parisMask" className="timeline-illustration min-w-[400px] sm:min-w-[500px] max-w-[200px] sm:max-w-[250px] max-h-[220px] sm:max-h-[280px]" />
 
                             <span className="date">
                             <FormattedMessage id="story.image.livingtogetherDate" defaultMessage="September 2020" /> 
@@ -139,7 +138,7 @@ function Timeline() {
 
                     <div className="swiper-slide">
                         <div className="timestamp ">
-                        <img src={pacs} alt="pacs" className="timeline-illustration max-w-[200px] sm:max-w-[250px] max-h-[300px]" />
+                        <img src={pacs} alt="pacs" className="timeline-illustration min-w-[400px] sm:min-w-[500px] max-w-[200px] sm:max-w-[250px] max-h-[220px] sm:max-h-[280px]" />
 
                             <span className="date">
                             <FormattedMessage id="story.image.pacsDate" defaultMessage="December 13th 2021" /> 
@@ -158,7 +157,7 @@ function Timeline() {
 
                     <div className="swiper-slide">
                         <div className="timestamp ">
-                            <img src={reunion} alt="reunion" className="timeline-illustration max-w-[200px] sm:max-w-[250px] max-h-[300px]" />
+                            <img src={reunion} alt="reunion" className="timeline-illustration min-w-[400px] sm:min-w-[500px] max-w-[200px] sm:max-w-[250px] max-h-[220px] sm:max-h-[280px]" />
                             <span className="date">
                             <FormattedMessage id="story.image.reunionDate" defaultMessage="December 2021" /> 
                             
@@ -170,7 +169,7 @@ function Timeline() {
 
                     <div className="swiper-slide">
                         <div className="timestamp ">
-                        <img src={trainHP} alt="trainHP" className="timeline-illustration max-w-[200px] sm:max-w-[250px] max-h-[300px]" />
+                        <img src={trainHP} alt="trainHP" className="timeline-illustration min-w-[400px] sm:min-w-[500px] max-w-[200px] sm:max-w-[250px] max-h-[220px] sm:max-h-[280px]" />
 
                             <span className="date">
                                 <FormattedMessage id="story.image.scotlandDate" defaultMessage="April 2023" /> 
@@ -190,7 +189,7 @@ function Timeline() {
 
                     <div className="swiper-slide">
                         <div className="timestamp ">
-                            <img src={engaged} alt="engaged" className="timeline-illustration max-w-[200px] sm:max-w-[250px] max-h-[300px]" />
+                            <img src={engaged} alt="engaged" className="timeline-illustration min-w-[400px] sm:min-w-[500px] max-w-[200px] sm:max-w-[250px] max-h-[220px] sm:max-h-[280px]" />
                             <span className="date">
                             <FormattedMessage id="story.image.engagedDate" defaultMessage="" />
                             </span>
