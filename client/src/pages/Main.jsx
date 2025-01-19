@@ -21,6 +21,23 @@ import ConfirmButton from '../components/Reusable/ConfirmButton'
 
 
 const Main = () => {
+
+
+
+  const localeCtx = useContext(IntlContext);
+  
+  let shortLang = localeCtx.locale;
+  
+  if (shortLang.indexOf('-') !== -1){
+    shortLang = shortLang.split('-')[0];
+
+  }
+  
+  if (shortLang.indexOf('_') !== -1){
+    shortLang = shortLang.split('_')[0];
+
+  }
+
     // nav is starting off false
   const [nav, setNav] = useState(false);
 
@@ -39,6 +56,8 @@ const Main = () => {
 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+
+  
   const scrollToSection = (elementRef) => {
 
     // state = elementRef.current.className;
@@ -87,6 +106,8 @@ const Main = () => {
               id="navbar.details"
               defaultMessage="Details"
             />
+            
+             { ((shortLang === "fr")||(shortLang === "en"))? <span class=" animate-ping absolute inline-flex rounded-full h-1.5 w-1.5 bg-[var(--orange)] mb-2 ml-2"></span> : <></>}
 
           </button>
           <button onClick={() => scrollToSection(travelstay)} className={'text-[var(--orange)] hover:border-[var(--orange)] border-b-[1px] rounded-xl min-w-20  min-h-10 border-transparent transition-all duration-500 ease-in-out'}>
@@ -131,11 +152,13 @@ const Main = () => {
             </div>
 
            
-            <div onClick={() => scrollToSection(details)} className="text-[var(--orange)]">
+            <div onClick={() => scrollToSection(details)} className="text-[var(--orange)] flex gap-2">
               <FormattedMessage
                 id="navbar.details"
                 defaultMessage="Details"
               />
+                { ((shortLang === "fr")||(shortLang === "en"))? <span class="animate-ping relative rounded-full h-1.5 w-1.5 bg-[var(--orange)]"></span> : <></>}
+
 
             </div>
             <div onClick={() => scrollToSection(travelstay)} className="text-[var(--orange)]">

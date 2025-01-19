@@ -39,7 +39,7 @@ const ConfirmationSection = () => {
             </div>
         </div>
         <div className=" absolute   bottom-0 right-0" >
-                    <img src={flowers} alt="orangeflower" className="max-w-[80px] sm:max-w-[100px]  md:max-w-[150px] lg:max-w-[200px] " />            
+                    <img src={flowers} alt="orangeflower" className="max-w-[90px] sm:max-w-[100px]  md:max-w-[150px] lg:max-w-[200px] " />            
                     </div>
     </section>
 

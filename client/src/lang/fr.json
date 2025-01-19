@@ -14,7 +14,7 @@
     "navbar.story": "Notre Histoire",
     "navbar.travelstay": "Voyage & Séjour",
     "navbar.details": "Informations",
-    "navbar.contact": "Confirmer ma présence",
+    "navbar.contact": "Confirmer",
     "navbar.valencia":"Visiter Valencia",
 
     "global.welcometext1":"¡Bienvenidos! Bienvenue! Welcome!",
@@ -24,8 +24,7 @@
 
     "home.hero.gettingmarried": "On va se marier!",
     "home.molinogalan": "Molino Galán",
-    "home.arrivalTime":"Arrivée: ?",
-    "home.ceremonyTime":"Cérémonie: ?",
+    "home.ceremonyTime":"Arrivée & Cérémonie: 18:30",
     "global.address1":"Partida del Molino Galán",
     "global.address2":"46369 Alborache",
     "global.address3":"Valencia, Espagne",
@@ -40,7 +39,7 @@
   "story.image.pacs": "PACS",
   "story.image.reunion": "Voyage à La Réunion",
   "story.image.scotland": "Voyage en Écosse",
-  "story.image.mainHero": "Fiancés à Londres",
+  "story.image.engaged": "Fiancés à Londres",
 
 "story.image.firstPicDate": "2 Février 2016",
   "story.image.italyDate": "Juillet 2018",
@@ -70,9 +69,11 @@
   "travelstay.autobusText1": " ",
   "travelstay.autobusText2": " ",
 
+  "travelstay.googlemaps":"Ouvrir dans google maps",
+
   "faq.title": "Questions fréquentes",
 
-   "faq.dressCode":            "Quel est le code vestimentaire?",
+   "faq.dressCode":           "Quel est le code vestimentaire?",
   "faq.dressCodeanswer":      "Le code vestimentaire pour le mariage sera formel. Nous vous invitons à suivre cette palette de couleurs pour les tenues, ce n'est pas obligatoire mais recommandé.",
 
   "faq.kids":                 "Les enfants sont-ils les bienvenus?",
@@ -82,13 +83,13 @@
   "faq.giftanswer":           "Nous n'avons pas de liste de cadeaux, mais si vous souhaitez contribuer, une boîte sera disponible lors du mariage pour nous aider à financer notre voyage de noces. Vous pourrez y déposer votre enveloppe ou nous contacter si vous préférez le donner avant le mariage.",
  
   "faq.venue":                "Hébergement pour ceux qui viennent de loin",
-  "faq.venueanswer":          "Sur place, vous trouverez vos hébergements et vous pourrez y rester du vendredi au dimanche. Il est très important de confirmer votre présence afin que nous puissions réserver vos chambres.",
+  "faq.venueanswer":          "Sur place, vous trouverez vos hébergements et vous pourrez y rester du vendredi au dimanche (n'oubliez pas votre maillot de bain!). Il est très important de confirmer votre présence afin que nous puissions réserver vos chambres.{breakingLine}{breakingLine}Un dîner est prévu pour les invités qui seront présents le vendredi soir. Pour le samedi matin et midi, aucun repas n'est prévu, mais un réfrigérateur et une cuisine sont à votre disposition dans chaque logement ainsi que dans la salle commune. De plus, un restaurant est présent juste à côté. {breakingLine}{breakingLine} Pour le dimanche midi, nous proposons de faire une commande groupée de paella et de riz traditionnels espagnols. Plus d'informations viendront à ce sujet!",
 
 
 
-  "tourism.reach.manises":"En avion depuis l'aéroport Manises (VLC)",
-  "tourism.reach.train":"En train depuis la france avec un changement à Barcelone",
-  "tourism.reach.car":"En voiture",
+  "tourism.reach.manises":"• En avion depuis l'aéroport Manises (VLC)",
+  "tourism.reach.train":"• En train depuis la france avec un changement à Barcelone",
+  "tourism.reach.car":"• En voiture",
 
 
 

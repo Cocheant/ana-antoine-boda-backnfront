@@ -25,7 +25,9 @@ const AccordionMenu = ({ title, answer,children }) => {
                 <div className="overflow-hidden text-sm sm:text-base md:text-lg lg:text-xl ">
                 { answer?<FormattedMessage
                         id={answer}
-                        defaultMessage="Question"/> :<></>}
+                        defaultMessage="Question" values={{
+                            breakingLine: <br />,
+                          }}/> :<></>}
                     {children}
 
                 </div>

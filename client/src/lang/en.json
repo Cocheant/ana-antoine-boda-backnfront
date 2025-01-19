@@ -28,8 +28,7 @@
     "home.hero.gettingmarried": "We are getting married!",
     "home.molinogalan": "Molino Galán",
     
-    "home.arrivalTime":"Arrival: ?",
-    "home.ceremonyTime":"Ceremony: ?",
+    "home.ceremonyTime":"Arrival & Ceremony: 18:30",
     "global.address1":"Partida del Molino Galán",
     "global.address2":"46369 Alborache",
     "global.address3":"Valencia, Spain",
@@ -46,7 +45,10 @@
     "travelstay.autobus":       " ",
     "travelstay.autobusText1":  " ",
     "travelstay.autobusText2":  " ",
-    
+
+    "travelstay.googlemaps":"Open in google maps",
+
+
     "story.title": "Our story!",
     "story.image.firstPic": "We met in Toronto",
 
@@ -101,13 +103,13 @@
     "faq.giftanswer": "We do not have a gift registry, but if you wish to contribute, a box will be available at the wedding to help us fund our honeymoon. You can drop your envelope there or contact us if you prefer to give it before the wedding.",
   
     "faq.venue": "Accommodation for those coming from afar",
-    "faq.venueanswer": "On-site, you will find your accommodations, and you can stay from Friday to Sunday. It is very important to confirm your attendance so we can book your rooms.",
+    "faq.venueanswer": "On-site, you will find your accommodations, and you can stay from Friday to Sunday (don’t forget your swimsuit!). It is very important to confirm your attendance so we can reserve your rooms.{breakingLine}{breakingLine}A dinner is planned for guests who will be there on Friday evening. For Saturday morning and lunch, no meals are provided, but a refrigerator and kitchen are available in each accommodation as well as in the common room. Additionally, there is a restaurant located right next door.{breakingLine}{breakingLine}For Sunday lunch, we are planning a group order of paella and traditional Spanish rice dishes. More information will follow on this!",
   
 
 
-    "tourism.reach.manises": "By plane from Manises Airport (VLC)",
-    "tourism.reach.train": "By train from France with a connection in Barcelona",
-    "tourism.reach.car": "By car",
+    "tourism.reach.manises": "• By plane from Manises Airport (VLC)",
+    "tourism.reach.train": "• By train from France with a connection in Barcelona",
+    "tourism.reach.car": "• By car",
     
     "tourism.howtoreach": "How to get there?",
     "tourism.visits": "What to visit?",
@@ -129,6 +131,6 @@
     "tourism.gastronomy": "Gastronomy",
     "tourism.gastronomy.title": " ",
   
-    "tourism.gastronomy.text": "We recommend trying various typical dishes from this area of Spain. Specifically:{breakingLine}{breakingLine}-        Paella. There are different types of paella. The most typical is Valencian paella (be aware it contains rabbit). There’s also arroz al senyoret (rice with seafood) or black rice (rice with squid ink).{breakingLine}{breakingLine}-        Baked rice. Another dish made with rice, cooked in the oven with pork like chorizo, chickpeas, and potatoes…{breakingLine}{breakingLine}{breakingLine}Some of our favorite tapas include:{breakingLine}{breakingLine}-        Patatas bravas{breakingLine}{breakingLine}-        Skillet eggs with chistorra sausage{breakingLine}{breakingLine}-        Fried baby squid{breakingLine}{breakingLine}{breakingLine}If you’d like to try something sweet:{breakingLine}{breakingLine}-        Churros with chocolate{breakingLine}{breakingLine}-        Pumpkin fritters with chocolate{breakingLine}{breakingLine}-        Horchata with fartons. This is a typical cold drink from Valencia. We enjoy it a lot, but it has a unique texture. We recommend you try it with others and, if you like it, get some more."
+    "tourism.gastronomy.text": "We recommend trying various typical dishes from this area of Spain.     Specifically:{breakingLine}{breakingLine}-        Paella. There are different types of paella.     The most typical is Valencian paella (be aware it contains rabbit).     There’s also arroz al senyoret (rice with seafood) or black rice (rice with squid ink).{breakingLine}{breakingLine}-        Arroz al horno. Another dish made with rice, cooked in the oven with pork like chorizo, chickpeas, and potatoes…{breakingLine}{breakingLine}{breakingLine}Some of our favorite tapas include:{breakingLine}{breakingLine}-        Patatas bravas{breakingLine}{breakingLine}-        Skillet eggs with chistorra sausage{breakingLine}{breakingLine}-        Fried baby squid{breakingLine}{breakingLine}{breakingLine}If you’d like to try something sweet:{breakingLine}{breakingLine}-        Churros with chocolate{breakingLine}{breakingLine}-        Pumpkin Buñuelos with chocolate{breakingLine}{breakingLine}-        Horchata with fartons. This is a typical cold drink from Valencia. We enjoy it a lot, but it has a unique texture. We recommend you try it with others and, if you like it, get some more."
   
 }

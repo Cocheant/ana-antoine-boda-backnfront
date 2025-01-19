@@ -78,9 +78,9 @@ const Home = () => {
                         id="home.hero.gettingmarried"
                         defaultMessage="We are getting married!"/> 
                     </div>
-                    <div className="sm:text-2xl md:text-5xl text-3xl flex justify-center align-bottom  text-[var(--orange)]   sm:space-x-6 space-x-3 border-t-2 pt-5 px-4 border-[var(--orange)]">
+                    <div className="sm:text-2xl md:text-5xl text-3xl flex justify-center align-bottom  text-[var(--orange)]   sm:space-x-6 space-x-2 border-t-2 pt-5 px-4 border-[var(--orange)]">
 
-                        <div className="sm:text-3xl md:text-4xl text-2xl flex justify-center text-[var(--orange)]  sm:space-x-3 space-x-1.5 ">
+                        <div className="sm:text-3xl md:text-4xl text-lg flex justify-center text-[var(--orange)]  sm:space-x-3 space-x-1">
                             <div>
                                 {countDownDays}
 
@@ -91,7 +91,7 @@ const Home = () => {
                             </div>
 
                         </div>
-                        <div className="sm:text-3xl md:text-4xl text-2xl flex justify-center  text-[var(--orange)] sm:space-x-2 space-x-1">
+                        <div className="sm:text-3xl md:text-4xl text-lg flex justify-center  text-[var(--orange)] ml-2 sm:space-x-2 space-x-1">
                             <div>
 
                                 {countDownHours}
@@ -104,7 +104,7 @@ const Home = () => {
 
 
                         </div>
-                        <div className="sm:text-3xl md:text-4xl text-2xl flex justify-center text-[var(--orange)] sm:space-x-2 space-x-3">
+                        <div className="sm:text-3xl md:text-4xl text-lg flex justify-center text-[var(--orange)] ml-1 sm:space-x-2 space-x-1">
                             <div>
 
                                 {countDownMinutes}
@@ -178,12 +178,7 @@ const Home = () => {
                                 />
 
                             </div>
-                            <div className=" flex justify-center text-[var(--orange)] ">
-                                <FormattedMessage
-                                    id="home.arrivalTime"
-                                    defaultMessage="Arrival: 18.30"
-                                />
-                            </div>
+                          
                             <div className=" flex justify-center text-[var(--orange)]  ">
                                 <FormattedMessage
                                     id="home.ceremonyTime"

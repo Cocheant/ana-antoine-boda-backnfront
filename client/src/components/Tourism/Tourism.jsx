@@ -12,20 +12,20 @@ const Tourism = () => {
             </div>
 
             <div className='flex justify-center items-center w-full '>
-                <img src={lineValencia} alt="orangeflower" className="max-w-[400px] sm:max-w-[600px]   " />            
+                <img src={lineValencia} alt="orangeflower" className="max-w-[300px] sm:max-w-[600px]   " />            
             </div>
-            <div className="  p-4 pt-2 bg-lorange rounded-lg mx-4 ">
+            <div className="  p-4 pt-2 bg-lorange rounded-lg mx-4 text-left ">
 
                 <AccordionMenu title="tourism.howtoreach" >
-                    <ul className=''>
-                        <li>                
-                        • <FormattedMessage id="tourism.reach.manises" defaultMessage="By plane from Manises Airport (VLC)" />,
+                    <ul>
+                        <li  className='text-left'>                
+                        <FormattedMessage id="tourism.reach.manises" defaultMessage="• By plane from Manises Airport (VLC)" />,
                         </li>
                         <li>                
-                        • <FormattedMessage id="tourism.reach.train" defaultMessage="By train from France with a change in Barcelona" />,
+                        <FormattedMessage id="tourism.reach.train" defaultMessage="• By train from France with a change in Barcelona" />,
                         </li>                        
                         <li>                
-                        • <FormattedMessage id="tourism.reach.car" defaultMessage="By car" />.
+                        <FormattedMessage id="tourism.reach.car" defaultMessage="• By car" />.
                         </li>
                     </ul>
                 </AccordionMenu> 

@@ -11,7 +11,7 @@ const TravelStay = () => {
         <section className="relative flex w-full justify-center pl-8 pr-8 pb-10 mt-10 overflow-auto flex-wrap text-[var(--orange)]">
 
             
-            <div className="relative  w-full justify-center  flex flex-col items-center">
+            <div className="relative  w-full justify-center  flex flex-col items-center text-justify">
             
                 <div className='w-full max-w-3xl -z-0'>
                     <div className="flex flex-row justify-between items-center">  
