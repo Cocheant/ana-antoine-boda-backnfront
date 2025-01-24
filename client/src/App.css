@@ -4,10 +4,6 @@
   margin-top: 50px;
 }
 
-.cls-1 {
-  fill: #d33d00;
-  stroke-width: 0px;
-}
 
 @keyframes tilt-shaking {
   0% { transform: rotate(0deg); }
@@ -15,4 +11,35 @@
   50% { transform: rotate(0deg); }
   75% { transform: rotate(-2deg); }
   100% { transform: rotate(0deg); }
+}
+
+
+.cls-2 {
+
+    fill: #d33d00;
+    stroke-width: 0px;
+}
+
+.cls-1 {
+  fill: transparent;
+}
+.logo-path {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: dash 3s ease-in-out forwards;
+}
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 1;
+    fill: transparent;
+  }
+  90% {
+    fill: transparent;
+    stroke-dashoffset: 0;
+  }
+  100%{
+    stroke-dashoffset: 0;
+    fill: #d33d00;
+  }
 }
